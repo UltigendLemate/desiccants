@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.line {
+    @apply block h-1 w-9 bg-black;
+}
