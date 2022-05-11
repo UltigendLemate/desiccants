@@ -1,9 +1,9 @@
 <template>
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
-   <nav class="bg-gray-900 text-gray-100 py-3.5 px-6 shadow md:flex justify-between items-center">
+   <nav class="bg-white text-gray-900 py-3.5 px-7 flex shadow md:flex justify-between items-center">
     <div class="left flex items-center">
-      <img src="./assets/logo.png" class="h-20" alt="" />
-      <span>Desiccants</span>
+      <img src="./assets/logo.png" class="h-24" alt="" />
+      <!-- <span class="text-4xl pt-8">Desiccants</span> -->
     </div>
 
     <!-- <div
@@ -24,22 +24,22 @@
 
     <div >
 
-    <span @click="MenuOpen()" class="absolute md:hidden right-6 top-1.5 cursor-pointer flex align-middle items-center text-6xl  h-20">
-    <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto"></i>
-    </span>
+    <div @click="MenuOpen()" class=" md:hidden  cursor-pointer flex align-middle items-center text-[80px]  h-28">
+    <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
+    </div>
 
-    <ul class="md:flex md:items-center md:px-0 px-5 md:pb-0  md:static absolute bg-gray-900 md:w-auto w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+    <ul class="md:flex md:items-center md:px-0 px-5 md:pb-0 z-30 md:static absolute text-2xl bg-white md:w-auto w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
      <li class="md:mx-4 my-6">
-       <router-link to="/" class="text-xl hover:text-[#EE6C4D]">Home</router-link>
+       <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
      </li>
      <li class="md:mx-4 my-6">
-       <router-link to="/" class="text-xl hover:text-[#EE6C4D]">About Us</router-link>
+       <router-link to="/" class=" hover:text-[#EE6C4D]">About Us</router-link>
      </li>
      <li class="md:mx-4 my-6">
-       <router-link to="/" class="text-xl hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
-     <button class="md:mx-4 mt-0 mb-6 md:mt-6">
-       <router-link to="/" class="text-xl ">Contact Us</router-link>
+     <button class="md:mx-4 mt-0 rounded-3xl mb-6 md:mt-6">
+       <router-link to="/" class=" ">Contact Us</router-link>
      </button>
      
      
