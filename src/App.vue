@@ -1,6 +1,6 @@
 <template>
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
-   <nav class="bg-white text-gray-900 py-3.5 px-7 flex shadow md:flex justify-between items-center">
+   <nav class="bg-white text-gray-900 py-3.5 px-7 shadow-lg flex md:flex justify-between items-center">
     <div class="left flex items-center">
       <img src="./assets/logo.png" class="h-24" alt="" />
       <!-- <span class="text-4xl pt-8">Desiccants</span> -->
@@ -52,7 +52,7 @@
   <router-view />
 </template>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 #app {
