@@ -1,17 +1,31 @@
 <template>
-  <div id='products'  class="text-white px-10 py-20">
-  <h2 class="text-4xl mt-10 font-bold border-b-2 pb-6  inline-block border-gray-400 border-solid">Our Top Products</h2>
-  <p class="text-lg mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minima voluptatem voluptate cumque molestiae corporis quibusdam asperiores. Expedita, commodi beatae. Lorem ipsum dolor sit amet consectetur adipisicing ipisci quos fugit, nihil eligendi placeat veritatis odio officia, esse, quod aut dolores consequuntur aliquam suscipit maiores.</p>
+  <div id='products'  class="text-white md:mb-10 px-10 py-20 text-center">
+  <h2 class="text-3xl md:text-4xl mt-3 font-bold border-b-2 pb-6  inline-block border-gray-400 border-solid">Our Top Products</h2>
+  <p class=" bg-clip-text text-transparent bg-gradient-to-br from-white to-[#ec9883] text-justify mt-5"><span class=" block text-xl text-center pb-2 italic"> Matter dictates Moisture</span>
+Each of your products produced with care has specific needs. We, at Desiccants India, offer a wide range of sorbents that aim to meet not only your packaging needs at every step but also provide protection designed variably for different products.</p>
   
 
-<div id="imgsProducts" class="grid grid-cols-2 md:grid-rows-1 md:grid-cols-6 mt-16 gap-8 justify-center items-center mx-auto">
+<div id="imgsProducts" class="grid md:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
+<div class="product"><img src="../assets/products/silica-gel.jpg" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl   mt-3">Silica Gel Sachets</span></div>
 
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
-<img src="../assets/logo.png" class="w-full bg-[#98C1D9] rounded-full  p-5" alt="">
+<div class="product "><img src="../assets/products/act.jpg" class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl   mt-3">Activated Carbon Pouches</span></div>
+
+<div class="product"><img src="../assets/products/clay.jpg" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Clay Based Desiccant</span></div>
+
+<div class="product"><img src="../assets/products/food.jpg" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Food Grade Desiccant</span></div>
+
+<div class="product"><img src="../assets/products/calcium.jpg" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Calcium Based Desiccant</span></div>
+
+<div class="product"><img src="../assets/products/bentonite.jpg" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Bentonite Clay</span></div>
+
+<div class="hidden md:block"></div>
+
+<div class="product"><img src="../assets/products/indicative.jpg" class="w-full bg-[#98C1D9]  rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Indicative Adsorbers</span></div>
+
+
+
+
+
 
 
 </div>
@@ -34,4 +48,9 @@ export default {
 
     background-size: cover;
 }
+
+.product{
+  @apply flex flex-col h-full  ;
+ /* w-1/2 px-4 sm:my-5 my-2 md:w-1/4 ;
+*/}
 </style>

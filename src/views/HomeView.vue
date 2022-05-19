@@ -1,7 +1,14 @@
 <template>
   <Banner/>
-  <about-section/>
+  <!-- <about-section/> -->
+ 
   <product-section/>
+  <!-- <our-journey/> -->
+  <journey/>
+   <Whyus/>
+  <Industries/>
+
+
 
 
 
@@ -14,11 +21,20 @@
 import Banner from '../components/Banner.vue'
 import AboutSection from '../components/AboutSection.vue'
 import ProductSection from '../components/ProductSection.vue'
+import OurJourney from '../components/trash.vue'
+import Journey from '../components/Journey.vue'
+import Whyus from '../components/Whyus.vue'
+import Industries from '../components/Industries.vue'
 export default {
   components:{
     Banner,
     AboutSection,
-    ProductSection
+    ProductSection,
+    OurJourney,
+    Journey,
+    Whyus,
+    Industries
+
   }
 }
 </script>
@@ -27,27 +43,6 @@ export default {
 
 <style>
 
-.carousel {
-  background: #EEE;
-}
 
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
 
 </style>
