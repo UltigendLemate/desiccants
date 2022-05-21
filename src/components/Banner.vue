@@ -1,5 +1,5 @@
 <template>
-<div class="containe overflow-x-hidden max-w-screen md:-mb-5 flex md:flex-row flex-col-reverse md:h-[80vh] py-8 px-7">
+ <!-- <div class="containe overflow-x-hidden max-w-screen md:-mb-5 flex md:flex-row flex-col-reverse md:h-[80vh] py-8 px-7"> 
 
 
 <div class="right  flex items-center  content-center justify-center  md:my-auto  mt-10 md:mx-10 py-0 md:py-9  md:h-full ">
@@ -29,11 +29,11 @@ Give your products the protection they need.
 
   
   
-  </div> 
+  </div>   -->
    <!-- Desiccants India has been a leading manufacturer of desiccants for the past 27 years and aims to shield your products from such damage and increase their shelf life.  -->
 
-  <!-- <div class="h-[calc(100vh-112px)]  flex justify-center items-center cont">
-  <div class="w-4/5 md:w-2/3 lg:w-3/5 small rounded-3xl backdrop-blur-lg bg-white bg-opacity-20 p-10  text-center" > 
+<div class="h-[calc(100vh-112px)]  flex justify-center items-center cont"> 
+  <div class="w-4/5 md:w-2/3 lg:w-3/5 small rounded-3xl backdrop-blur-sm bg-white  bg-opacity-20 shadow-sm shadow-black	 p-10 bord text-center" > 
   <h1 class="text-[40px]  sm:text-5xl md:text-6xl md:mb-4 sm:mb-3 t-smal ">Dessicants India</h1>
 
   <h2 class="text-xl sm:text-2xl md:text-3xl md:mb-4 font-medium mb-2">Complete Solutions For Moisture</h2>
@@ -42,7 +42,37 @@ Give your products the protection they need.
   
   
   </div>
-  </div> -->
+  </div> 
+
+
+<!-- <div class="flex-col flex banner justify-center items-center">
+<div class="w lg:w-full small rounded-3xl  p-10  text-center" > 
+  <h1 class="text-[40px]  sm:text-5xl md:text-6xl md:mb-4 sm:mb-3 font-bold  t-smal ">Dessicants India</h1>
+
+  <h2 class="text-xl sm:text-2xl md:text-3xl md:mb-4 font-medium mb-2">Complete Solutions For Moisture</h2>
+
+  <h6 class="text-lg md:text-xl text-justify hidden md:block my-5">Moisture and humidity adversely affect the quality of products and severely harm their integrity. Give your products the protection they need. Desiccants India has been a leading manufacturer of desiccants for the past 27 years and aims to shield your products from such damage and increase their shelf life.</h6>
+  
+  
+  </div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-6 mb-5 -mt-4 mx-10">
+  <video autoplay="autoplay" class="rounded-full border-[10px] border-green-300" loop="loop" >
+  <source src="../assets/1.mp4" type="video/mp4" />
+</video>
+  <video autoplay="autoplay" class="rounded-full border-[10px] border-blue-400" loop="loop" >
+  <source src="../assets/2.mp4" type="video/mp4" />
+</video>
+  <video autoplay="autoplay" class="rounded-full border-[10px] border-rose-400" loop="loop" >
+  <source src="../assets/3.mp4" type="video/mp4" />
+</video>
+  <video autoplay="autoplay" class="rounded-full border-[10px] border-orange-400" loop="loop" >
+  <source src="../assets/4.mp4" type="video/mp4" />
+</video>
+
+  </div>
+	</div> -->
+
+
 </template>
 
 <script>
@@ -52,6 +82,15 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@596&display=swap');
+
+
+.banner{
+	background-image: linear-gradient( 108deg,  rgba(242,245,139,1) 17.7%, rgba(148,197,20,0.68) 91.2% );
+}
+	/*.banner h1{font-family: 'Playfair Display', serif;}*/
+	.banner {font-family: 'Poppins', sans-serif;}
 
 @media (max-width:470px){
 .small{
@@ -63,6 +102,16 @@ export default {
 font-size:36px;
 }
 }
+.bord{
+	
+	position: relative;
+	 appearance: none;
+	  --border-radius: 15px;
+ --border-width: 4px;
+
+ z-index: 2;
+}
+
 
 
 @media (max-width:400px){
@@ -74,7 +123,7 @@ font-size:32px;
 }
 
 .cont{
-	background: url('../assets/bannerbg.jpg');
+	background: url('../assets/bannerbg.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -133,5 +182,10 @@ width: 100%;
 
 /* From uiverse.io by @Madflows */
 /* From uiverse.io by @Madflows */
+
+
+
+
+
 
 </style>

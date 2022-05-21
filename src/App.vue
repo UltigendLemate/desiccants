@@ -40,26 +40,28 @@
 
   <router-view class="overflow-x-hidden" />
 
-<!-- <footer>
+<footer class=""> 
 
 
-  <div class="md:grid footer  md:grid-cols-3">
+  <div class="lg:grid footer pb-7 bg-black text-white  lg:grid-cols-4">
   
-  <div class="flex justify-center"><img src="./assets/logo.png" alt=""></div>
-  
-  <div class="flex flex-col mt-7 items-center justify-center">
+  <div class="flex col-span-1 justify-center"><img src="./assets/logo.png" alt=""></div>
 
-  <h2 class="text-3xl font-bold border-b-2 px-6 pb-3 border-black w-fit text-center">Quick Links</h2>
+    
+  
+  <div class="grid col-span-1 justify-center">
+
+  <h2 class="text-3xl font-bold mt-10 text-center">Quick Links</h2>
   
 <ul class="">
-     <li class="text-center text-xl my-2">
+     <li class="text-center text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
   
      </li>
-     <li class="text-center text-xl my-2">
+     <li class="text-center text-lg my-2">
        <router-link to="/about" class=" hover:text-[#EE6C4D]">About Us</router-link>
      </li>
-     <li class="text-center text-xl my-2">
+     <li class="text-center text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      
@@ -67,34 +69,52 @@
      
     
     </ul>
+
+    <div class="grid grid-cols-3 gap-x-6   my-2">
+    <img  src="https://img.icons8.com/fluency/60/000000/instagram-new.png" />
+    <img src="https://img.icons8.com/fluency/60/000000/facebook-new.png"/>
+    <img src="https://img.icons8.com/color/60/000000/linkedin-circled--v1.png"/>
+    </div>
   
   </div>
-<div>
-<p class="text-3xl font-bold text-center border-b-2 border-black mx-36 mb-2 ">Contact</p>
-  <div class="grid grid-cols-2 justify-center text-center mt-7 item-center ">
-  
-  <div>
-  <p class="text-xl font-bold">Address:</p><p class=" text-xl mb-4"> Desiccants India<br>
-1833 MIE Part B<br>
-Bahadurgarh,<br>
-Haryana-124507</p></div>
-<div>
+
+<div class="lg:text-justify text-center col-span-2 text-lg grid  justify-center ">
+<p class="text-3xl font-bold mt-10 mb-5 lg:mb-0 lg:ml-[25%]  ">Contact</p>
+<div class="lg:grid md:text-xl lg:text-lg  lg:-mt-10 justify-center gap-x-3 grid-cols-2">
 <div class="">
-<p class="text-xl font-bold ">Call Us</p><a href="tel:9810987954" class="text-xl  inline-block"><i class="bi bi-telephone-fill"></i> 9810987954</a>
-<a href="tel:9212025689" class="text-xl  block "><i class="bi bi-telephone-fill"></i> 9212025689</a>
+   <span class="  font-bold">Address: </span>
+   <p class="mb-4">Desiccants India<br>
+1833 MIE Part B,<br>
+Bahadurgarh,<br>
+Haryana-124507</p>
+
+</div>
+
+<div class="">
+
+<p class="  "><span class="font-bold ">Call Us: </span> <a href="tel:9810987954" class="  block"><i class="bi bi-telephone-fill"></i> 9810987954</a>
+<a href="tel:9212025689" class=" block  "><i class="bi bi-telephone-fill"></i> 9212025689</a></p>
+ 
+   <div class="hidden md:block">
+<p class="  font-bold mt-4 ">Email Us:</p><a href="mailto:desiccantsindia@yahoo.co.in" class="  inline-block "> <i class="bi bi-envelope-fill"></i>  mktg@desiccantsindia.com</a>
   </div>
 
+
+ </div>
+ </div>
+
+ <div class="md:hidden">
+<p class="  font-bold mt-4 md:mt-0">Email Us:</p><a href="mailto:desiccantsindia@yahoo.co.in" class="  inline-block"><i class="bi bi-envelope-fill"></i>  mktg@desiccantsindia.com</a>
+  </div>
+  
+  </div>
   
 
-  </div>
-  <div class="col-span-2">
-<p class="text-xl font-bold mt-4">Email Us</p><a href="mailto:desiccantsindia@yahoo.co.in" class="text-xl  inline-block"><i class="bi bi-envelope-fill"></i> desiccantsindia@yahoo.co.in</a>
-  </div>
-  </div>
-  </div>
+
+ 
   
   </div>
-  </footer> -->
+  </footer> 
 
  
 </template>
@@ -187,7 +207,7 @@ button.contact:hover{
 }
 
 
-.footer{
+.foote{
   background: url('./assets/footer-bg.png') ;
     background-position: center;
   background-size: cover;

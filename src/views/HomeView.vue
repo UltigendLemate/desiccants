@@ -1,12 +1,13 @@
 <template>
   <Banner/>
   <!-- <about-section/> -->
+  <Industries/>
  
   <product-section/>
+     <Whyus/>
   <!-- <our-journey/> -->
   <journey/>
-   <Whyus/>
-  <Industries/>
+
 
 
 

@@ -1,5 +1,5 @@
 <template>
-
+<main class="lg:mt-80 md:mt-16">
 <h1 class="text-4xl font-bold text-center mt-11 md:hidden">Our Journey</h1>
 
   <div class="flex flex-col md:hidden justify-center items-center">
@@ -142,7 +142,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/gqzfzudq.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#243980,secondary:#FA4B5C"
     style="width:100%;height:100%; margin-left:20px">
 </lord-icon>
       </div>
@@ -348,7 +348,7 @@
       </div>
     </div>
   </section>
-
+</main>
 
 </template>
 
