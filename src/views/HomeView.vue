@@ -1,12 +1,15 @@
 <template>
   <Banner/>
+    <product-section/>
   <!-- <about-section/> -->
+    <journey/>
+    
+     <Whyus/>
   <Industries/>
  
-  <product-section/>
-     <Whyus/>
+
   <!-- <our-journey/> -->
-  <journey/>
+
 
 
 

@@ -1,19 +1,19 @@
 <template >
 
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
-   <nav class="bg-white  text-gray-900  px-7 shadow-lg flex md:flex justify-between items-center">
+   <nav class="  text-gray-900 absolute w-screen right-0 bg-white bg-opacity-30 z-10  px-7 shadow-lg flex md:flex justify-between items-center">
     <div class="left flex items-center">
       <img src="./assets/logo.png" class="h-[70px] " alt="" />
       <!-- <span class="text-4xl pt-8">Desiccants</span> -->
     </div>
 
-    <div >
+    <div class="w-fit" >
 
-    <div @click="MenuOpen()" class=" md:hidden  cursor-pointer flex align-middle items-center text-6xl  h-28">
+    <div @click="MenuOpen()" class=" md:hidden  relative left-4 cursor-pointer flex align-middle items-center text-6xl  h-28">
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist md:items-center md:px-0 px-5 md:pb-0 z-30 md:static absolute text-2xl bg-white md:w-auto w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+    <ul class="md:flex navlist md:items-center md:px-0 px-5 md:pb-0 z-50 md:static absolute text-2xl bg-white md:bg-transparent overflow-x-hidden md:w-auto  w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
      <li class="md:mx-4 my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
        <!-- 243980 -->
@@ -45,7 +45,7 @@
 
   <div class="lg:grid footer pb-7 bg-black text-white  lg:grid-cols-4">
   
-  <div class="flex col-span-1 justify-center"><img src="./assets/logo.png" alt=""></div>
+  <div class="flex col-span-1 justify-center pt-7 lg:pb-5"><img src="./assets/logo_white.png" alt=""></div>
 
     
   

@@ -1,5 +1,5 @@
 <template>
-<main class="lg:mt-80 md:mt-16">
+<main class=" lg:mb-72 md:mt-16">
 <h1 class="text-4xl font-bold text-center mt-11 md:hidden">Our Journey</h1>
 
   <div class="flex flex-col md:hidden justify-center items-center">
@@ -8,7 +8,7 @@
         <h3 class="font-bold text-2xl mb-2">Big Problems need Creative Solutions
 </h3>
 
-      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#EE6C4D]">1994</span>
+      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">1994</span>
         
       </div>
 
@@ -16,7 +16,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/zpxybbhl.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     style="width:120%;height:120%; margin:-35px 0 0 -25px;">
 </lord-icon>
       </div>
@@ -40,7 +40,7 @@
         <h3 class="font-bold text-2xl mb-2">Creative Solutions seek Big Steps
 </h3>
 
-      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#EE6C4D]">1998</span>
+      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">1998</span>
         
       </div>
 
@@ -48,7 +48,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/ippkhukl.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     style="width:130%;height:130%; margin: -30px 0 0px -25px;">
 </lord-icon>
       </div>
@@ -72,7 +72,7 @@
         <h3 class="font-bold text-2xl  mb-2">Big Steps lead to Great Vision
 </h3>
 
-      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#EE6C4D]">2003</span>
+      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">2003</span>
         
       </div>
 
@@ -80,7 +80,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/gqdnbnwt.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     stroke="45"
     scale="75"
     axis-x="55"
@@ -105,7 +105,7 @@
         <h3 class="font-bold text-2xl mb-2">Great Vision builds a Reliable Team
 </h3>
 
-      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#EE6C4D]">2010</span>
+      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">2010</span>
         
       </div>
 
@@ -113,7 +113,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/uukerzzv.json"
     trigger="loop"
-    colors="primary:#ee6c4d,secondary:#243980"
+    colors="primary:#00B0BD,secondary:#69568A"
     stroke="55"
     style="width:100%;height:100%;">
 </lord-icon>
@@ -134,7 +134,7 @@
         <h3 class="font-bold text-2xl -mr-9 mb-2">Reliable Team thrives on Significant Purpose
 </h3>
 
-      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#EE6C4D]">2019</span>
+      <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">2019</span>
         
       </div>
 
@@ -142,7 +142,7 @@
         <lord-icon
     src="https://cdn.lordicon.com/gqzfzudq.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#FA4B5C"
+    colors="primary:#69568A,secondary:#FA4B5C"
     style="width:100%;height:100%; margin-left:20px">
 </lord-icon>
       </div>
@@ -204,7 +204,7 @@
               <lord-icon
     src="https://cdn.lordicon.com/zpxybbhl.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     style="width:130%;height:130%; margin:-25px 0 0 -25px;">
 </lord-icon>
             </div>
@@ -235,7 +235,7 @@
               <lord-icon
     src="https://cdn.lordicon.com/ippkhukl.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     style="width:130%;height:130%; margin: -30px 0 0px -25px;">
 </lord-icon>
             </div>
@@ -265,7 +265,7 @@
               <lord-icon
     src="https://cdn.lordicon.com/gqdnbnwt.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     stroke="45"
     scale="75"
     axis-x="55"
@@ -302,7 +302,7 @@
               <lord-icon
     src="https://cdn.lordicon.com/uukerzzv.json"
     trigger="loop"
-    colors="primary:#ee6c4d,secondary:#243980"
+    colors="primary:#00B0BD,secondary:#69568A"
     stroke="55"
     style="width:100%;height:100%;">
 </lord-icon>
@@ -334,7 +334,7 @@
               <lord-icon
     src="https://cdn.lordicon.com/gqzfzudq.json"
     trigger="loop"
-    colors="primary:#243980,secondary:#ee6c4d"
+    colors="primary:#69568A,secondary:#00B0BD"
     style="width:100%;height:100%">
 </lord-icon>
             </div>
@@ -370,7 +370,7 @@ body {
 
   font-weight: 900;
   text-transform: uppercase;
-  background: #98C1D9;
+  background: #D1D5DB;
 
 
 
@@ -394,7 +394,7 @@ body {
   top: 0;
   left: 50%;
   margin-left: -2px;
-  background: #98C1D9;
+  background: #D1D5DB;
   z-index: -1;
 }
 #conference-timeline .conference-timeline-content {
@@ -457,9 +457,9 @@ body {
   width: 62px;
   height: 62px;
   margin-left: -31px;
-  color: #fff;
+  color: #000;
   border-radius: 100%;
-  background: #00b0bd;
+  background: #D1D5DB;
 }
 .timeline-article .meta-date .date,
 .timeline-article .meta-date .month {
