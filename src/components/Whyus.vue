@@ -7,15 +7,15 @@
 <div class="grid grid-cols-2 md:grid-cols-4 md:gap-x-7 lg:gap-x-0  sm:text-base md:text-xs lg:text-sm  text-xs md:mx-0 mx-5 my-5 gap-5">
 
 
-<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/env.png" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
+<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/env.webp" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
 
 
-<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/eco.png" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
+<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/eco.webp" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
 
 
-<div class="w-fit flex items-center justify-center  h-fit" ><img src="../assets/whyus/quality.png"   class="h-full  w-full md:w-5/6 object-cover rounded-full" alt=""> </div>
+<div class="w-fit flex items-center justify-center  h-fit" ><img src="../assets/whyus/quality.webp"   class="h-full  w-full md:w-5/6 object-cover rounded-full" alt=""> </div>
 
-<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/service.png" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
+<div class="w-fit flex items-center justify-center  h-fit"><img src="../assets/whyus/service.webp" class="h-full w-full md:w-5/6 object-cover rounded-full" alt=""></div>
 
 
 </div>
@@ -29,21 +29,21 @@
 <div class="grid grid-cols-3 md:grid-cols-6 md:gap-x-7  sm:text-base md:text-xs lg:text-sm  text-xs mx-5 my-5 gap-5">
 
 
-<div class="w-fit h-fit"><img src="../assets/industries/leather.png" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Leather</span></div>
+<div class="w-fit h-fit"><img src="../assets/industries/leather.webp" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Leather</span></div>
 
 
-<div class="w-fit h-fit"><img src="../assets/industries/electronics.png" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Electronics</span></div>
+<div class="w-fit h-fit"><img src="../assets/industries/electronics.webp" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Electronics</span></div>
 
 
-<div class="w-fit h-fit" ><img src="../assets/industries/food.png"   class="h-full  w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Food Industry</span></div>
+<div class="w-fit h-fit" ><img src="../assets/industries/food.webp"   class="h-full  w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Food Industry</span></div>
 
-<div class="w-fit h-fit"><img src="../assets/industries/handicrafts.png" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Handicrafts</span></div>
-
-
-<div class="w-fit h-fit"><img src="../assets/industries/pharma.png" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Pharmaceutical</span></div>
+<div class="w-fit h-fit"><img src="../assets/industries/handicrafts.webp" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Handicrafts</span></div>
 
 
-<div class="w-fit h-fit" ><img src="../assets/industries/shipping.png"   class="h-full  w-full object-cover rounded-full" alt=""><span class="text-center block  font-semibold my-2 lg:mt-4">Shipping Industry</span></div>
+<div class="w-fit h-fit"><img src="../assets/industries/pharma.webp" class="h-full w-full object-cover rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Pharmaceutical</span></div>
+
+
+<div class="w-fit h-fit" ><img src="../assets/industries/shipping.webp"   class="h-full  w-full object-cover rounded-full" alt=""><span class="text-center block  font-semibold my-2 lg:mt-4">Shipping Industry</span></div>
 </div>
 
 </div>

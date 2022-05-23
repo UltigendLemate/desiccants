@@ -1,11 +1,13 @@
 <template>
 <main class=" lg:mb-72 md:mt-16">
+
+
 <h1 class="text-4xl font-bold text-center mt-11 md:hidden">Our Journey</h1>
 
   <div class="flex flex-col md:hidden justify-center items-center">
     <div class="flex w-full card md:p-24 p-10">
       <div class="w-3/5">
-        <h3 class="font-bold text-2xl mb-2">Big Problems need Creative Solutions
+        <h3 class="font-bold text-2xl sm:text-5xl mb-2">Big Problems need Creative Solutions
 </h3>
 
       <span class="text-xl text-white px-6 py-2 block text-justify w-fit my-2 rounded-xl sm:my-4  bg-[#00B0BD]">1994</span>
@@ -192,10 +194,10 @@
         <div class="content-left-container">
           <div class="content-left flex w-full card md:p-24  p-10">
             <div class="w-[400px]">
-              <h3 class="font-bold text-2xl mb-2">
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
                 Big Problems need Creative Solutions
               </h3>
-              <p>
+              <p class="lg:text-xl">
                 It began with a question- How to stop rapid damage of products due to moisture which is omnipresent?
               </p>
             </div>
@@ -223,10 +225,10 @@
         <div class="content-right-container">
           <div class="content-right flex flex-row-reverse">
             <div class="w-[400px]">
-              <h3 class="font-bold text-2xl mb-2">
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
                 Creative Solutions seek Big Steps
               </h3>
-              <p>
+              <p class="lg:text-xl mt-5">
                 Despite humble beginnings, our founder invested in and automated through state-of-the-art technology. We now had 4 machines.
               </p>
             </div>
@@ -253,10 +255,10 @@
         <div class="content-left-container">
           <div class="content-left flex w-full card md:p-24  p-10">
             <div class="w-[400px]">
-              <h3 class="font-bold text-2xl mb-2">
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
                 Big Steps lead to Great Vision
               </h3>
-              <p>
+              <p class="lg:text-xl mt-5">
                 Found a great untapped market in the form of the export industry. Clientele doubled.
               </p>
             </div>
@@ -289,11 +291,11 @@
         <div class="content-right-container">
           <div class="content-right flex flex-row-reverse">
             <div class="w-[400px]">
-              <h3 class="font-bold text-2xl mb-2">
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
                 Great Vision builds a Reliable Team
 
               </h3>
-              <p>
+              <p class="lg:text-xl mt-5">
                 With a core investment in the trust of many, we built a team of over 100 employees.
               </p>
             </div>
@@ -322,10 +324,10 @@
         <div class="content-left-container">
           <div class="content-left flex w-full card md:p-24  p-10">
             <div class="w-[400px]">
-              <h3 class="font-bold text-2xl mb-2">
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
                 Reliable Team thrives on Significant Purpose
               </h3>
-              <p>
+              <p class="lg:text-xl mt-5">
                 Our founder is onto the next big question - how to continue providing while also protecting the environment. 
               </p>
             </div>
@@ -382,7 +384,7 @@ body {
 /*===== Vertical Timeline =====*/
 #conference-timeline {
   position: relative;
-  max-width: 920px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -406,10 +408,17 @@ body {
   height: 100%;
   position: relative;
   overflow: hidden;
-  margin: 0px 0;
+}
+
+.timeline-article .content-left{
+  margin-right: 20px !important;
+}
+.timeline-article .content-right{
+  margin-left: 20px !important;
 }
 .timeline-article .content-left-container,
 .timeline-article .content-right-container {
+
   max-width: 50%;
   width: 100%;
 }
@@ -425,7 +434,7 @@ body {
   padding: 0;
   font-weight: 400;
 
-  font-size: 14px;
+
   line-height: 24px;
   position: relative;
 }
@@ -481,3 +490,4 @@ body {
 
 /*===== // Resonsive Vertical Timeline =====*/
 </style>
+

@@ -35,28 +35,28 @@ Give your products the protection they need.
 
 
 
-<div class="carousel w-screen h-screen overflow-x-hidden"
+<div class="carousel w-screen h-[90vh]   md:h-screen "
   data-flickity='{"fade" : true,"draggable": false, "wrapAround": true,
   
   "pageDots": false,
   "resize":false,
   "adaptiveHeight":true,
   "setGallerySize": false }'>
-<div class="overflow-x-hidden carousel-cell w-screen h-screen main-banner flex flex-col justify-center  items-center">
-<div class=""><h1 class="text-5xl t-smal font-bold text-center md:text-8xl lg:text-8xl xl:text-9xl lg:-mt-36 md:-mt-20 sm:text-7xl">Desiccants India</h1></div>
-<div class="mx-4 md:mx-0 md:w-1/3"><h3 class=" md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
+<div class="overflow-x-hidden carousel-cell h-[90vh] md:h-screen w-screen  main-banner flex flex-col justify-center  items-center">
+<div class=""><h1 class="text-4xl t-smal font-bold text-center md:text-7xl lg:text-8xl  lg:-mt-36 md:-mt-20 sm:text-5xl">Desiccants India LLP</h1></div>
+<div class="mx-4 md:mx-0 md:w-1/3"><h3 class="mx-5 md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
 
 <div class=" flex items-center justify-center">
-<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0duration-200 hover:text-red-600 border-black rounded-full w-fit font-semibold lg:border-4"><router-link to="/about"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
+<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0duration-200 hover:text-red-600 border-black rounded-full w-fit font-semibold bg-white bg-opacity-30 lg:border-4"><router-link to="/about"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
 </div>
-  <div class="h-screen carousel-cell main-banner2 flex flex-col justify-center  ">
-<div class="mx-10 mt-16"><h1 class="text-6xl  font-bold  md:text-8xl lg:text-8xl    sm:text-7xl">Protect.</h1></div>
-<div class="mx-10 md:mr-16  pt-7 "><h3 class="   text-xl  lg:text-4xl text-white sm:text-3xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
+  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col justify-center  ">
+<div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 "><h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
 
 </div>
-  <div class="h-screen carousel-cell main-banner2 main-banner3 flex flex-col justify-center  ">
-<div class="mx-10 mt-16"><h1 class="text-6xl  font-bold  md:text-8xl lg:text-8xl  text-white  sm:text-7xl">Ensure Security.</h1></div>
-<div class="mx-10 md:mr-16  pt-7 "><h3 class="   text-xl  lg:text-4xl text-white sm:text-3xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
+  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 main-banner3 flex flex-col justify-center  ">
+<div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Ensure Security.</h1></div>
+<div class="mx-10 md:mr-16  pt-7 "><h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
 
 </div>
   
@@ -127,18 +127,21 @@ export default {
 @import url(//db.onlinewebfonts.com/c/db8cfc8f593f2e47bd9bd157e455c494?family=Athelas-Bold);
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@596&display=swap');
+.carousel-cell{
+  font-family: "Athelas-Bold", sans-serif ;
 
+}
 .carousel-cell,.carousel,.flickity-viewport, .flickity-slider{
 	width: 100% !important;
-	height: 100vh !important;
+
 	
 }
 .next{
-	right: 30px !important;
+	right: 10px !important;
 }
 
-.flickity-prev-next-button{
-	background: rgba(252, 252, 252, 0.498);
+button.flickity-prev-next-button{
+	background: rgba(252, 252, 252, 0.498) !important;
 	
 }
 
@@ -173,11 +176,11 @@ export default {
   z-index: -1;
 }
 
-.main-banner h1, .main-banner2 h1{
+.main-banner h1{
 	font-family: 'Cinzel', serif;
 }
 .main-banner h3,  .main-banner button,.main-banner2 h3,  .main-banne2r button{
-	font-family: 'Atheas-Bold', serif;
+	font-family: 'Athelas-Bold', serif;
 }
 .banner{
 	background-image: linear-gradient( 108deg,  rgba(242,245,139,1) 17.7%, rgba(148,197,20,0.68) 91.2% );
@@ -273,7 +276,7 @@ width: 100%;
 }
 
 
-.main-banner3::after{
+.main-banner2::after{
 	content:'';
 	position: absolute;
 	left: 0;
@@ -281,7 +284,7 @@ width: 100%;
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.4;
 	z-index: -1;
 }
 

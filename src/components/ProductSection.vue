@@ -8,14 +8,41 @@
 <button class="block mt-6 text-xl border-2 px-4 py-2 hover:border-red-500 hover:text-red-500 hover:relative hover:-top-1 duration-1000 border-black rounded-full w-fit">View Our Products <i class="bi bi-arrow-right"></i></button></div>
   
 
-<div id="imgsProducts" class="grid lg:grid-cols-4 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
-<div class="product"><img src="../assets/products/silica-gel.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Silica Gel Sachets</span></div>
+<div v-if="show" class="grid lg:grid-cols-4 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
+<div class="product"><img src="../assets/products/silica-gel_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Silica Gel Sachets</span></div>
 
-<div class="product "><img src="../assets/products/act.webp" class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Activated Carbon Pouches</span></div>
+<div class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Activated Carbon Pouches</span></div>
 
-<div class="product"><img src="../assets/products/clay.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Clay Based Desiccant</span></div>
+<div class="product"><img src="../assets/products/clay_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Clay Based Desiccant</span></div>
 
-<div class="product"><img src="../assets/products/indicative.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Food Grade Desiccant</span></div>
+<div class="product"><img src="../assets/products/indicative_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Food Grade Desiccant</span></div>
+
+<!-- <div class="product"><img src="../assets/products/calcium.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Calcium Based Desiccant</span></div> -->
+
+<!-- <div class="product"><img src="../assets/products/bentonite.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Bentonite Clay</span></div>
+
+<div class="hidden md:block"></div>
+
+<div class="product"><img src="../assets/products/indicative.webp" class="w-full bg-[#98C1D9]  rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Indicative Adsorbers</span></div> -->
+
+
+
+
+
+
+
+</div>
+
+
+
+<div v-else class="grid lg:grid-cols-4 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
+<div class="product"><img src="../assets/products/silica-gel.webp" srcset="../assets/products/silica-gel_small.webp 300w,../assets/products/silica-gel.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Silica Gel Sachets</span></div>
+
+<div class="product "><img src="../assets/products/act.webp" srcset="../assets/products/act_small.webp 300w,../assets/products/act.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold lg:text-xl   mt-3">Activated Carbon Pouches</span></div>
+
+<div class="product"><img src="../assets/products/clay.webp" srcset="../assets/products/clay_small.webp 300w,../assets/products/clay.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Clay Based Desiccant</span></div>
+
+<div class="product"><img src="../assets/products/indicative.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold lg:text-xl    mt-3">Food Grade Desiccant</span></div>
 
 <!-- <div class="product"><img src="../assets/products/calcium.webp" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl    mt-3">Calcium Based Desiccant</span></div> -->
 
@@ -39,7 +66,28 @@
 
 <script>
 export default {
-
+  data() {
+    return { width: window.innerWidth, show:true, height: window.innerHeight };
+    
+  },
+  created() {
+    window.addEventListener("resize", this.onResize);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.onResize);
+  },
+  methods: {
+    onResize(e) {
+      this.width = window.innerWidth;
+      this.height = window.innerHeight;
+      if (this.width > 750 && this.width < 1024){
+        this.show = false;
+      }
+      else{
+        this.show=true;
+      }
+    },
+  },
 }
 </script>
 

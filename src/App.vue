@@ -3,7 +3,7 @@
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
    <nav class="  text-gray-900 absolute w-screen right-0 bg-white bg-opacity-30 z-10  px-7 shadow-lg flex md:flex justify-between items-center">
     <div class="left flex items-center">
-      <img src="./assets/logo.png" class="h-[70px] " alt="" />
+      <img src="./assets/logo.png" class="h-[70px] md:h-[80px] md:my-3 " alt="" />
       <!-- <span class="text-4xl pt-8">Desiccants</span> -->
     </div>
 
@@ -119,14 +119,14 @@ Haryana-124507</p>
  
 </template>
 
-<style scoped>
+<style >
+@import url(//db.onlinewebfonts.com/c/db8cfc8f593f2e47bd9bd157e455c494?family=Athelas-Bold);
 
 @import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 #app {
-  font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
