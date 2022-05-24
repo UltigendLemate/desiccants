@@ -2,10 +2,10 @@
   <main class=" industries bg-gradient-to-r lg:pt-72 from-gray-300 to-gray-100 py-16 -z-10">
 
 
-  <div class="grid lg:grid-cols-5 md:mx-20 justify-center items-center ">
+  <div class="grid lg:grid-cols-5 md:mx-5  justify-center items-center ">
 <div class="flex flex-col items-center justify-center lg:col-span-2">
-<div class="text-4xl text-center pt-9 font-bold w-fit border-b-2 border-solid border-gray-600  pb-4 px-3">Industries We Serve</div>
-<p class="text-base bg-clip-text text-transparent bg-gradient-to-tl from-black to-[#000b2e] text-justify p-8">With our years of experience, we have built a name for ourselves that is synonymous with reliability and quality.<br><br> We continuously strive to uphold and further push these standards with a dedicated R&D department that aims to innovate the product and continue finding better, cheaper, and more effective solutions. <br><br>
+<div class=" text-center pt-9 headingFont w-fit border-b-2 border-solid border-gray-600  pb-4 px-3">Industries We Serve</div>
+<p class="text-lg md:text-xl bg-clip-text text-transparent bg-gradient-to-tl from-black to-[#000b2e] text-justify p-8">With our years of experience, we have built a name for ourselves that is synonymous with reliability and quality.<br><br> We continuously strive to uphold and further push these standards with a dedicated R&D department that aims to innovate the product and continue finding better, cheaper, and more effective solutions. <br><br>
 As an assurance of quality and our dedication to providing that, we have obtained the ISO-000, ISO-001 certifications and are accredited with the Norwegian Standards-one of the highest in the industry.
 </p>
 

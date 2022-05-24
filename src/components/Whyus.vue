@@ -2,7 +2,7 @@
 
 <main class="whyus bg-gradient-to-t from-[#dfd1be] to-[#dcc29f] lg:rounded-3xl lg:absolute lg:-mt-56 py-7  lg:mx-28 lg:px-12">
   <div class="flex-col flex items-center  ">
-<div class="text-3xl text-center pt-6 font-semibold w-fit border-b-2 border-solid border-gray-600 md:text-5xl  pb-4 px-3 ">Why Choose Desiccants India?</div>
+<div class=" text-center pt-6 headingFont w-fit border-b-2 border-solid border-gray-600   pb-4 px-3 ">Why Choose Desiccants India?</div>
 
 <div class="grid grid-cols-2 md:grid-cols-4 md:gap-x-7 lg:gap-x-0  sm:text-base md:text-xs lg:text-sm  text-xs md:mx-0 mx-5 my-5 gap-5">
 
@@ -53,6 +53,7 @@
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
 .whyuus{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
@@ -64,6 +65,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+
+.headingFont{
+  @apply text-3xl md:text-5xl font-bold;
+  font-family: 'Lora', serif;
 }
 
 </style>

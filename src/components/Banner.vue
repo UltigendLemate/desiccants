@@ -47,18 +47,29 @@ Give your products the protection they need.
 <div class="mx-4 md:mx-0 md:w-1/3"><h3 class="mx-5 md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
 
 <div class=" flex items-center justify-center">
-<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0duration-200 hover:text-red-600 border-black rounded-full w-fit font-semibold bg-white bg-opacity-30 lg:border-4"><router-link to="/about"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
+<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0 duration-200 hover:text-red-600 border-black rounded-3xl md:px-8 w-fit font-semibold  text-white bg-opacity-30 lg:border-4"><router-link to="/about"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
 </div>
   <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col justify-center  ">
 <div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
-<div class="mx-10 md:mr-16  pt-6 "><h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+<h3 class="   text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Around 12% of global shipment damage per year is due to moisture.</h3>
+<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Protect your goods from damage caused by the water droplets present in the air.</h3>
+</div>
 
 </div>
-  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 main-banner3 flex flex-col justify-center  ">
+  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col justify-center  ">
+<div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+<h3 class="   text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Around 12% of global shipment damage per year is due to moisture.</h3>
+<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Protect your goods from damage caused by the water droplets present in the air.</h3>
+</div>
+
+</div>
+  <!-- <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen  main-banner3 flex flex-col justify-center  ">
 <div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Ensure Security.</h1></div>
 <div class="mx-10 md:mr-16  pt-7 "><h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
 
-</div>
+</div> -->
   
 
 </div>
@@ -158,7 +169,7 @@ button.flickity-prev-next-button{
 .main-banner2{
 	background: url('../assets/bannerbg.webp');
 	background-size: cover;
-	background-position:  left;
+	background-position:  center center;
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;

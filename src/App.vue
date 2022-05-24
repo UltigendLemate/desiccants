@@ -1,30 +1,30 @@
 <template >
 
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
-   <nav class="  text-gray-900 absolute w-screen right-0 bg-white bg-opacity-30 z-10  px-7 shadow-lg flex md:flex justify-between items-center">
+   <nav class="   absolute w-screen right-0 text-white  z-10  px-7 shadow-lg flex md:flex justify-between items-center">
     <div class="left flex items-center">
       <img src="./assets/logo.png" class="h-[70px] md:h-[80px] md:my-3 " alt="" />
       <!-- <span class="text-4xl pt-8">Desiccants</span> -->
     </div>
 
-    <div class="w-fit" >
+    <div class="lg:w-[70%] md:w-4/5" >
 
-    <div @click="MenuOpen()" class=" md:hidden  relative left-4 cursor-pointer flex align-middle items-center text-6xl  h-28">
+    <div @click="MenuOpen()" class=" md:hidden text-black  relative left-4 cursor-pointer flex align-middle items-center text-6xl  h-28">
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist md:items-center md:px-0 px-5 md:pb-0 z-50 md:static absolute text-2xl bg-white md:bg-transparent overflow-x-hidden md:w-auto  w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
-     <li class="md:mx-4 my-6">
+    <ul class="md:flex navlist md:items-center md:w-full md:justify-between md:px-0 px-5 md:pb-0 z-50 md:static absolute text-2xl bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+     <li class=" md:text-3xl my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
        <!-- 243980 -->
      </li>
-     <li class="md:mx-4 my-6">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">About Us</router-link>
+     <li class=" md:text-3xl my-6">
+       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
-     <li class="md:mx-4 my-6">
+     <li class=" md:text-3xl my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
-     <li class="md:mx-4 my-6">
+     <li class=" md:text-3xl my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Contact Us</router-link>
      </li>
      <!-- <button class="md:mx-4 contact mt-0 rounded-3xl mb-6 md:mt-6">
@@ -59,7 +59,7 @@
   
      </li>
      <li class="text-center text-lg my-2">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">About Us</router-link>
+       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class="text-center text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
@@ -127,6 +127,8 @@ Haryana-124507</p>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 #app {
+    font-family: "Montserrat", sans-serif; 
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

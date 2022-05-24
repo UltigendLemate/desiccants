@@ -39,6 +39,9 @@ app.directive('scrollanimation', (el)=>{
 });
 
 
+
+
+
 app.use(router).mount('#app')
 
 
