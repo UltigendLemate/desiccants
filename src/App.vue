@@ -1,10 +1,10 @@
 <template >
 
    <!-- <nav>class="flex flex-row justify-between px-10 bg-gray-200"> -->
-   <nav class="   absolute w-screen right-0 text-white  z-10  px-7 shadow-lg flex md:flex justify-between items-center">
+   <!-- <nav class="   absolute w-screen right-0 text-white  z-10  px-7 shadow-lg flex md:flex justify-between items-center">
     <div class="left flex items-center">
       <img src="./assets/logo.png" class="h-[70px] md:h-[80px] md:my-3 " alt="" />
-      <!-- <span class="text-4xl pt-8">Desiccants</span> -->
+
     </div>
 
     <div class="lg:w-[70%] md:w-4/5" >
@@ -16,7 +16,7 @@
     <ul class="md:flex navlist md:items-center md:w-full md:justify-between md:px-0 px-5 md:pb-0 z-50 md:static absolute text-2xl bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
      <li class=" md:text-3xl my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
-       <!-- 243980 -->
+   
      </li>
      <li class=" md:text-3xl my-6">
        <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
@@ -27,18 +27,17 @@
      <li class=" md:text-3xl my-6">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Contact Us</router-link>
      </li>
-     <!-- <button class="md:mx-4 contact mt-0 rounded-3xl mb-6 md:mt-6">
-       <router-link to="/" class=" ">Contact Us</router-link>
-     </button> -->
-     
+ 
      
     
     </ul>
     
     </div>
-  </nav>
+  </nav> -->
 
   <router-view class="overflow-x-hidden" />
+
+<div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href=""><img src="./assets/wp.svg" alt=""></a></div>
 
 <footer class=""> 
 
@@ -53,15 +52,15 @@
 
   <h2 class="text-3xl font-bold mt-10 text-center">Quick Links</h2>
   
-<ul class="">
-     <li class="text-center text-lg my-2">
+<ul class="font-thin">
+     <li class="text-center  text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
   
      </li>
-     <li class="text-center text-lg my-2">
+     <li class="text-center  text-lg my-2">
        <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
-     <li class="text-center text-lg my-2">
+     <li class="text-center  text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      
@@ -122,7 +121,7 @@ Haryana-124507</p>
 <style >
 @import url(//db.onlinewebfonts.com/c/db8cfc8f593f2e47bd9bd157e455c494?family=Athelas-Bold);
 
-@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
@@ -133,8 +132,8 @@ Haryana-124507</p>
   -moz-osx-font-smoothing: grayscale;
 }
 nav .navlist {
-  font-family: "Montserrat", sans-serif; 
-  font-weight: bold;
+  font-family: sans-serif; 
+
 
 }
 
@@ -217,6 +216,23 @@ button.contact:hover{
   
   
 
+}
+#wp{
+    animation: yourAnimation 2s ease-in-out 0s infinite normal none;
+}
+
+
+@keyframes yourAnimation {
+    0.0%{
+        transform: scale(1);
+    }
+
+    50.2%{
+        transform: scale(1.1);
+    }
+    99.6%{
+        transform: scale(1);
+    }
 }
 
 </style>

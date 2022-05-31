@@ -8,7 +8,7 @@
 <button class="block mt-6 text-xl border-2 px-4 py-2 hover:border-red-500 hover:text-red-500 hover:relative hover:-top-1 duration-1000 border-black rounded-full w-fit">View Our Products <i class="bi bi-arrow-right"></i></button></div>
   
 
-<div v-if="show"  class="grid px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
+<div   class="grid md:hidden px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
 <div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/silica-gel_small.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
 
 <div @mouseenter="addClass" @mouseleave="removeClass"  class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
@@ -21,7 +21,7 @@
 </div>
 
 
-<div v-else class="grid px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
+<div class="md:grid hidden px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
 
 <div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/silica-gel.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
 
