@@ -14,18 +14,7 @@
   <h3 class="text-2xl md:text-4xl md:mt-5 lg:text-3xl md:tracking-wide font-semibold my-3  ">Complete Solutions For Moisture</h3>
   <div class="">
   
-  <p class="text-base text-justify md:w-5/6">Moisture and humidity adversely affect the quality of products and severely harm their integrity. 
  
-
-Give your products the protection they need.
-</p></div>
-  
-
-  </div >
-
-  <button class="rounded-2xl bg-[#243980] text-white px-5 sm:px-8 py-5 hover:relative hover:bottom-1 duration-500 ease-in-out text-xl sm:text-2xl shadow-md shadow-black font-semibold">Know More</button>
-
-  </div>
 
  -->
   <nav class=" hidden md:flex  absolute w-screen right-0 text-white bg-white bg-opacity-10 backdrop-blur-sm  z-10  px-7 shadow-lg justify-between items-center">
@@ -36,18 +25,18 @@ Give your products the protection they need.
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist md:items-center md:w-full md:justify-around lg:px-64 md:px-20 px-5 md:pb-0 z-50 md:static absolute text-2xl bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
-     <li class=" md:text-3xl my-5">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
+    <ul class="md:flex navlist md:items-center md:w-full md:justify-around lg:px-80 md:px-20 px-5 md:pb-0 z-50 md:static absolute text-2xl  bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+     <li class="  my-5">
+       <router-link to="/" class=" hover:text-[#EE6C4D] font-bold">Home</router-link>
    
      </li>
-     <li class=" md:text-3xl my-5">
+     <li class="  my-5">
        <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
-     <li class=" md:text-3xl my-5">
+     <li class="  my-5">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
-     <li class=" md:text-3xl my-5">
+     <li class="  my-5">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
      </li>
  
@@ -122,7 +111,7 @@ Give your products the protection they need.
 
 
 
-<div class="overflow-x-hidden hidden carousel-cell h-[90vh] md:h-screen w-screen  main-banner flex flex-col justify-center  items-center">
+<div class="overflow-x-hidden hidden carousel-cell h-[90vh] md:h-screen w-screen  main-banner  flex-col justify-center  items-center">
 <div class=""><h1 class="text-4xl t-smal font-bold text-center md:text-7xl lg:text-8xl  lg:-mt-36 md:-mt-20 sm:text-5xl">Desiccants India LLP</h1></div>
 <div class="mx-4 md:mx-0 md:w-1/3"><h3 class="mx-5 md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
 
@@ -132,7 +121,7 @@ Give your products the protection they need.
 
 <!-- CAROUSEL  -->
 
-<div class="carousel  w-screen h-[90vh]   md:h-screen "
+<div class="carousel hidden w-screen h-[90vh]   md:h-screen "
   data-flickity='{ "wrapAround": true,"prevNextButtons": false,"autoPlay":2000, "pauseAutoPlayOnHover": false,
 
   
@@ -156,30 +145,98 @@ Give your products the protection they need.
 </div>
 
   <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Around <span class="text-yellow-300 tag text-5xl">12%</span>  of global shipment damage per year is due to moisture.</h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>  of container goods lost every year are due to moisture.</h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Protect your goods from damage caused by the water droplets present in the air.</h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
 </div>
 
 </div>
-  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col justify-center  ">
-<div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
+  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by a US lab, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures.  </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
-<h3 class="   text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Around 12% of global shipment damage per year is due to moisture.</h3>
-<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Protect your goods from damage caused by the water droplets present in the air.</h3>
+
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product specific desiccants.</h3>
 </div>
 
 </div>
-  <div class=" carousel-cell h-[90vh] main-banner2 md:px-8 md:h-screen  main-banner3 flex flex-col justify-center  ">
-<div class="mx-10 mt-16"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Ensure Security.</h1></div>
-<div class="mx-10 md:mr-16  pt-7 "><h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque eos porro iste voluptatibus, mollitia asperiores quae deleniti rerum molestiae amet incidunt cum. Dicta natus assumenda perspiciatis. Atque mollitia officia asperiores odio aspernatur exercitationem nobis enim voluptatibus pariatur culpa nulla aut natus, optio cupiditate consequatur at iure? Veniam, asperiores quam?</h3></div>
+  <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative humidity in an indicator of the amount of moisture in the air. High RH levels can induce fungal growth, mould formation and general product deterioration. Leather for instance loses its physical integrity at high levels of moisture.   </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Preserve.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using high performing and long lasting adsorbents. </h3>
+</div>
 
 </div>
+ 
   
 
 </div>
+
+
+
+
+<div class=" w-full h-[90vh]   md:h-screen">
+<swiper  :modules="modules" :autoplay="{
+      delay: 5500,
+      disableOnInteraction: false,
+    }" :loop="true"
+    :pagination="{
+      clickable: true,
+    }" class="mySwiper">
+
+
+    
+    <swiper-slide><div class="carousel-cell flex h-[90vh] main-banner2 relative backdrop-blur-sm md:h-screen  main-banner3  flex-col justify-center items-center  ">
+<div class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/D.svg" class="inline -mr-9 md: -mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/I.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+
+<div class="mx-10 mt-24 md:hidden"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
+
+
+<!-- <div class="flex justify-center mt-3 lg:mt-0 xl:mt-0"><h4 class="text-center  text-2xl  tracking-wider lg:tracking-widest  font-extrabold text-black  ">Since 1995</h4></div> -->
+
+<button class="bg-white text-black px-4 lg:text-2xl py-2 mt-9 rounded-2xl text-xl tag w-fit">Know More</button>
+
+<div class="grid w-full text-2xl lg:text-2xl px-4 text-white justify-center items-center xl:tracking-widest  absolute bottom-12"><h2 class="text-center word">COMPLETE SOLUTIONS FOR YOUR MOISTURE PROBLEMS</h2></div>
+
+
+</div></swiper-slide>
+
+    <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 backdrop-blur-md  flex flex-col  justify-center bg2 " >
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>  of container goods lost every year are due to moisture.</h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+
+<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
+</div>
+
+</div></swiper-slide
+    ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center bg3 ">
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by a US lab, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures.  </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+
+<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product specific desiccants.</h3>
+</div>
+
+</div></swiper-slide>
+
+<swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col bg4  justify-center  ">
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative humidity in an indicator of the amount of moisture in the air. High RH levels can induce fungal growth, mould formation and general product deterioration. Leather for instance loses its physical integrity at high levels of moisture.   </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Preserve.</h1></div>
+<div class="mx-10 md:mr-16  pt-6 ">
+
+<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using high performing and long lasting adsorbents. </h3>
+</div>
+
+</div></swiper-slide>
+  </swiper>
+
+  </div>
+
 
 
 
@@ -261,28 +318,22 @@ Give your products the protection they need.
 }
 
 
-.carousel-cell .protect{
-  font-family: "Athelas-Bold", sans-serif ;
 
-}
-.flickity-page-dots {
+.swiper-pagination {
+  
   bottom: 15px;
 }
-.flickity-page-dots .dot {
+.swiper-pagination-bullet{
  width: 12px;
   height: 12px;
   opacity: 1;
   background: transparent;
   border: 2px solid white;
 }
-.flickity-page-dots .dot.is-selected {
+.swiper-pagination-bullet-active {
   background: white;
 }
-.carousel-cell,.carousel,.flickity-viewport, .flickity-slider{
-	width: 100% !important;
 
-	
-}
 .word{
 	word-spacing: 20px;
 }
@@ -388,12 +439,11 @@ font-size:55px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.containe::before{
+/*.containe::before{
 	content: '';
 	height: 100%;
 	width: 100vw;
 	position: absolute;
-	background: url('../assets/wave.svg');
 	background-size: contain;
 	background-position: bottom right;
 	background-repeat: no-repeat;
@@ -406,7 +456,7 @@ font-size:55px;
 	
 	z-index: -1;
 
-}
+}*/
 
 @media (max-width:770px) {
 	.main-banner{
@@ -430,7 +480,7 @@ width: 100%;
 
 
 .main-banner3{
-	background: url('../assets/glass.webp');
+	background: url('../assets/glass.jpg');
 	background-size: cover;
 	background-position:  center center;
 	background-repeat: no-repeat;
@@ -449,21 +499,54 @@ width: 100%;
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.3;
 	z-index: -1;
 }
 
 /* From uiverse.io by @Madflows */
 /* From uiverse.io by @Madflows */
 
-
+.bg2{
+background: url('../assets/bg2.jpg');
+background-size: cover;
+}
+.bg3{
+background: url('../assets/mainbg.webp');
+background-size: cover;
+}
+.bg4{
+background: url('../assets/pic.jpg');
+background-size: cover;
+}
 
 
 
 
 </style>
 <script>
+
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+// Import Swiper styles
+import "swiper/css";
+
+import "swiper/css/pagination";
+
+
+// import required modules
+import { Pagination,Autoplay } from "swiper";
+
 export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Pagination,Autoplay],
+    };
+  },
+  
   data(){
     return{
     open:false,

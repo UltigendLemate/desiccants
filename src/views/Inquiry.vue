@@ -11,17 +11,17 @@
     </div>
 
     <ul class="md:flex navlist  px-5 md:pb-0 z-50 md:static absolute top-24  text-2xl bg-white text-black md:text-black  md:bg-transparent overflow-x-hidden  w-full md:w-auto   duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
-     <li class=" md:text-3xl my-5 pl-5 md:mx-5">
+     <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
    
      </li>
-     <li class=" md:text-3xl my-5 pl-5 md:mx-5">
+     <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
-     <li class=" md:text-3xl my-5 pl-5 md:mx-5">
+     <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
-     <li class=" md:text-3xl my-5 pl-5 md:mx-5 md:mr-0">
+     <li class=" md:text-2xl my-5 pl-5 md:mx-4 md:mr-0">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
      </li>
  
@@ -32,7 +32,7 @@
   </nav>
 
 <div class="grid justify-center items-center">
-<h1 class="  mt-6 mb-4 pb-2 md:mt-8  w-fit border-b-2 border-black text-5xl md:text-6xl" style="font-family: 'Lora', serif;">Inquiry</h1>
+<h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-5xl text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">FREQUENTLY ASKED QUESTIONS</h1>
 </div>
   <div class="w-full px-4 ">
     <div class="mx-auto lg:mx-10  md:flex   rounded-2xl bg-white p-2">

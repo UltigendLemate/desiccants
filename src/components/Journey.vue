@@ -1,5 +1,5 @@
 <template>
-<main class=" lg:mb-72 md:mt-16">
+<main class=" md:mt-12">
 
 
 <h1 class="headingFont text-center mt-11 md:hidden">Our Journey</h1>

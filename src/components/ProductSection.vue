@@ -1,11 +1,11 @@
 <template>
   <div id='products'  class=" py-20 w-full  lg:mx-0  text-center flex flex-col justify-center items-center">
   <div>
-  <h1 class="headingFont mt-3  border-b-2 pb-3 text-center inline-block  w-fit px-3 border-gray-400 border-solid">Matter dictates Moisture</h1></div>
+  <h1 class="headingFont mt-3  border-b-2 pb-3 text-center inline-block  w-fit px-3 border-gray-400 border-solid">Our Top Products</h1></div>
   <!-- <p class=" bg-clip-text text-transparent bg-gradient-to-br text-black text-justify mt-5"><span class=" block text-2xl text-center  italic"> </span>
 .</p> -->
 <div class=" flex items-center justify-center">
-<button class="block mt-6 text-xl border-2 px-4 py-2 hover:border-red-500 hover:text-red-500 hover:relative hover:-top-1 duration-1000 border-black rounded-full w-fit">View Our Products <i class="bi bi-arrow-right"></i></button></div>
+<button class="block mt-6 text-xl border-2 px-4 py-2 hover:border-red-500 hover:text-red-500 hover:relative hover:-top-1 duration-1000 border-black rounded-full w-fit">View Our Catalogue <i class="bi bi-arrow-right"></i></button></div>
   
 
 <div   class="grid md:hidden px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">

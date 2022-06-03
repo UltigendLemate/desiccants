@@ -50,7 +50,7 @@
   
   <div class="grid col-span-1 justify-center">
 
-  <h2 class="text-3xl font-bold mt-10 text-center">Quick Links</h2>
+  <h2 class="text-3xl font-bold mt-0 opacity-0 text-center">Quick Links</h2>
   
 <ul class="font-thin">
      <li class="text-center  text-lg my-2">
@@ -78,7 +78,7 @@
   </div>
 
 <div class="lg:text-justify text-center col-span-2 text-lg grid  justify-center ">
-<p class="text-3xl font-bold mt-10 mb-5 lg:mb-0 lg:ml-[25%]  ">Contact</p>
+<p class="text-3xl font-bold mt-3 mb-5 lg:mb-0 opacity-0 lg:ml-[25%]  ">Contact</p>
 <div class="lg:grid md:text-xl lg:text-lg  lg:-mt-10 justify-center gap-x-3 grid-cols-2">
 <div class="">
    <span class="  font-bold">Address: </span>

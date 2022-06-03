@@ -1,11 +1,13 @@
 <template>
   <Banner/>
+
+    <Industries/>
     <product-section/>
   <!-- <about-section/> -->
     <journey/>
     
-     <Whyus/>
-  <Industries/>
+     <!-- <Whyus/> -->
+
  
 
   <!-- <our-journey/> -->
@@ -28,7 +30,7 @@ import ProductSection from '../components/ProductSection.vue'
 import OurJourney from '../components/trash.vue'
 import Journey from '../components/Journey.vue'
 import Whyus from '../components/Whyus.vue'
-import Industries from '../components/Industries.vue'
+import Industries from '../components/AboutUs.vue'
 export default {
   components:{
     Banner,
