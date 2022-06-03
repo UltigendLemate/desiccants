@@ -57,7 +57,7 @@
 <div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
 </div>
 <div :class="[silica ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class="top-0 w-fit absolute duration-700">
-<ul class="list-disc pl-6">
+<ul class="list-disc pl-6 pr-4">
 <li  class="">Available in beads and powder form</li>
 <li>Applicable for electronics, handicrafts etc.</li>
 <li>High absorption capacity</li>
@@ -83,7 +83,7 @@
 </div>
 
 
-<div :class="[act ? 'opacity-100 delay-300 left-[calc(50%-53px)]':'opacity-0 -left-10']" class="-top-2 absolute duration-700">
+<div :class="[act ? 'opacity-100 delay-300 left-[calc(50%-53px)]':'opacity-0 left-[calc(50%-83px)]']" class="-top-2 absolute duration-700">
 <h3 class="text-2xl text-center my-2 font-semibold">Features</h3>
 
 
@@ -93,9 +93,9 @@
 <div class="relative grid justify-center items-center">
 <div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
 </div>
-<div :class="[act ? 'opacity-100 delay-300 left-0 sm:left-[calc(50%-171px)]':'opacity-0 -left-10']" class="top-0 absolute duration-700">
-<ul class="list-disc pl-6">
-<li>Available in beads and powder form</li>
+<div :class="[act ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class="top-0 w-fit absolute duration-700">
+<ul class="list-disc pl-6 pr-4">
+<li  class="">Available in beads and powder form</li>
 <li>Applicable for electronics, handicrafts etc.</li>
 <li>High absorption capacity</li>
 
@@ -109,6 +109,81 @@
 
 
 </div>
+<div class="grid justify-center items-center px-3 py-3 pb-10 productCard  md:mx-5 my-5">
+
+<img src="../assets/products/silica-gel.webp" class="rounded-3xl mx-auto" alt="">
+<div class="">
+<div class="relative ">
+
+<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative ">
+<h3 class="text-2xl tracking-widest text-center my-2 font-semibold" >Silica Gel</h3>
+</div>
+
+
+<div :class="[silica ? 'opacity-100 delay-300 left-[calc(50%-53px)]':'opacity-0 left-[calc(50%-83px)]']" class="-top-2 absolute duration-700">
+<h3 class="text-2xl text-center my-2 font-semibold">Features</h3>
+
+
+</div>
+
+</div>
+<div class="relative grid justify-center items-center">
+<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
+</div>
+<div :class="[silica ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class="top-0 w-fit absolute duration-700">
+<ul class="list-disc pl-6 pr-4">
+<li  class="">Available in beads and powder form</li>
+<li>Applicable for electronics, handicrafts etc.</li>
+<li>High absorption capacity</li>
+
+
+</ul></div>
+
+</div>
+</div>
+
+<div class="absolute text-[45px] bottom-1 right-2 " @click="this.silica = !this.silica;"><i class="bi bi-arrow-right-circle"></i></div>
+
+
+</div>
+<div class="grid justify-center items-center px-3 py-3 pb-10 productCard  md:mx-5 my-5">
+
+<img src="../assets/products/silica-gel.webp" class="rounded-3xl mx-auto" alt="">
+<div class="">
+<div class="relative ">
+
+<div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative ">
+<h3 class="text-2xl tracking-widest text-center my-2 font-semibold" >Silica Gel</h3>
+</div>
+
+
+<div :class="[act ? 'opacity-100 delay-300 left-[calc(50%-53px)]':'opacity-0 left-[calc(50%-83px)]']" class="-top-2 absolute duration-700">
+<h3 class="text-2xl text-center my-2 font-semibold">Features</h3>
+
+
+</div>
+
+</div>
+<div class="relative grid justify-center items-center">
+<div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
+</div>
+<div :class="[act ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class="top-0 w-fit absolute duration-700">
+<ul class="list-disc pl-6 pr-4">
+<li  class="">Available in beads and powder form</li>
+<li>Applicable for electronics, handicrafts etc.</li>
+<li>High absorption capacity</li>
+
+
+</ul></div>
+
+</div>
+</div>
+
+<div class="absolute text-[45px] bottom-1 right-2 " @click="this.act = !this.act;"><i class="bi bi-arrow-right-circle"></i></div>
+
+
+</div>
+
 
 
 
@@ -149,10 +224,10 @@
 <style>
 
 
-@media (max-width: 480px){
+@media (max-width: 440px){
 
 .thin{
-  left: calc(50% - 135px) !important;
+  left: calc(50% - 140px) !important;
 }
 
 }
