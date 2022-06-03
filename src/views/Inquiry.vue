@@ -19,7 +19,7 @@
        <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4 md:mr-0">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>

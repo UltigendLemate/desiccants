@@ -31,10 +31,10 @@
    
      </li>
      <li class="  my-5">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class="  my-5">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      <li class="  my-5">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
@@ -64,10 +64,10 @@
    
      </li>
      <li class=" md:text-3xl my-5 pl-5">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-3xl my-5 pl-5">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      <li class=" md:text-3xl my-5 pl-5">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
@@ -116,7 +116,7 @@
 <div class="mx-4 md:mx-0 md:w-1/3"><h3 class="mx-5 md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
 
 <div class=" flex items-center justify-center">
-<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0 duration-200 hover:text-red-600 border-black rounded-3xl md:px-8 w-fit font-semibold  text-white bg-opacity-30 lg:border-4"><router-link to="/about"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
+<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0 duration-200 hover:text-red-600 border-black rounded-3xl md:px-8 w-fit font-semibold  text-white bg-opacity-30 lg:border-4"><router-link to="/products"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
 </div>
 
 <!-- CAROUSEL  -->

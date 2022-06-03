@@ -58,7 +58,7 @@
   
      </li>
      <li class="text-center  text-lg my-2">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class="text-center  text-lg my-2">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
