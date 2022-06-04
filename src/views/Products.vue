@@ -242,7 +242,7 @@ box-shadow:  9px 9px 18px #c3c3c3,
 
 
 .productCard p{
- @apply sm:px-20 md:px-20 lg:px-5 xl:px-9
+ @apply sm:px-20 md:px-20 lg:px-5 xl:px-7 2xl:px-10
 }
 </style>
 
