@@ -480,7 +480,7 @@ width: 100%;
 
 
 .main-banner3{
-	background: url('../assets/glass.jpg');
+	background: url('../assets/glass.webp');
 	background-size: cover;
 	background-position:  center center;
 	background-repeat: no-repeat;
