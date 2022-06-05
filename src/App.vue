@@ -125,6 +125,10 @@ Haryana-124507</p>
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 #app {
     font-family: "Montserrat", sans-serif; 
 

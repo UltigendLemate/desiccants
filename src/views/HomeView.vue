@@ -41,7 +41,10 @@ export default {
     Whyus,
     Industries
 
-  }
+  },
+  mounted () {
+  window.scrollTo(0, 0)
+}
 }
 </script>
 

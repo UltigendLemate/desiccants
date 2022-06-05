@@ -10,7 +10,7 @@
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist  px-5 md:pb-0 z-50 md:static absolute top-24  text-2xl bg-white text-black md:text-black  md:bg-transparent overflow-x-hidden  w-full md:w-auto   duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+    <ul class="md:flex navlist  px-5 md:pb-0 z-50 md:static absolute top-24  text-2xl bg-white text-black md:text-black  md:bg-transparent overflow-x-hidden  w-full md:w-auto   duration-500 ease-in-out" :class="[open ? 'left-0':'left-[-100%]']">
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
    
@@ -22,7 +22,7 @@
        <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4 md:mr-0">
-       <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
+       <router-link to="/inquiry" class=" hover:text-[#EE6C4D] font-bold">Inquiry</router-link>
      </li>
  
      

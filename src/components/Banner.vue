@@ -25,7 +25,7 @@
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist md:items-center md:w-full md:justify-around lg:px-80 md:px-20 px-5 md:pb-0 z-50 md:static absolute text-2xl  bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+    <ul class="md:flex navlist md:items-center md:w-full md:justify-around lg:px-80 md:px-20 px-5 md:pb-0 z-50 md:static absolute text-2xl  bg-white text-black md:text-white  md:bg-transparent overflow-x-hidden   w-full  duration-500 ease-in-out" :class="[open ? 'left-0':'left-[-100%]']">
      <li class="  my-5">
        <router-link to="/" class=" hover:text-[#EE6C4D] font-bold">Home</router-link>
    
@@ -174,7 +174,7 @@
 
     
     <swiper-slide><div class="carousel-cell flex h-[90vh] main-banner2 relative backdrop-blur-sm md:h-screen  main-banner3  flex-col justify-center items-center  ">
-<div class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/D.svg" class="inline -mr-9 md: -mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/I.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+<div class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
 
 <div class="mx-10 mt-24 md:hidden"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
@@ -187,8 +187,7 @@
 
 
 </div></swiper-slide>
-
-    <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 backdrop-blur-md  flex flex-col  justify-center bg2 " >
+<swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 backdrop-blur-md  flex flex-col  justify-center bg2 " >
    <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>of container goods lost every year are due to moisture leading to a heavy loss of goods and money.</h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
@@ -215,7 +214,7 @@
 <h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
 </div>
 
-</div></swiper-slide>
+</div></swiper-slide> 
   </swiper>
 
   </div>

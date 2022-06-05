@@ -19,7 +19,7 @@
        <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
-       <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D] font-bold">Products</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4 md:mr-0">
        <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
@@ -186,7 +186,7 @@
 <!-- FOOD GRADE  -->
 <div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/food_grade.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/food_grade.png" class="rounded-3xl w-full" alt="">
 
 <div class="relative ">
 
@@ -288,7 +288,7 @@
 </div>
 
 
-<!-- Sustainable Solutions  -->
+<!-- Sustainable Sorbents  -->
 <div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/sustainable.webp" class="rounded-3xl w-full" alt="">
@@ -296,7 +296,7 @@
 <div class="relative ">
 
 
-<h3 class="text-2xl sm:text-4xl lg:text-2xl text-center my-2 font-semibold" >Sustainable Solutions</h3>
+<h3 class="text-2xl sm:text-4xl lg:text-2xl text-center my-2 font-semibold" >Sustainable Sorbents</h3>
 
 
 </div>
@@ -476,5 +476,8 @@ export default {
       modules: [EffectCube, Pagination],
     };
   },
+  mounted () {
+  window.scrollTo(0, 0)
+}
 };
 </script>
