@@ -57,7 +57,7 @@
     </div>
 
     <p class="text-justify text-lg p-10 -mt-16">
-          Despite humble beginnings, our founder invested in and automated through state-of-the-art technology. We now had 4 machines.
+          Despite humble beginnings, our founder actively invested in and automated the silica gel manufacturing process through state-of-the-art technology. 
         </p>
 
     <img
@@ -93,7 +93,7 @@
     </div>
 
     <p class="text-justify text-lg p-10 -mt-20">
-          Found a great untapped market in the form of the export industry. Clientele doubled.
+          Revolutionised the indian market with a new type of adsorbent that opened doors to the pharmaceuticals and the food industry.
         </p>
 
     <img
@@ -123,7 +123,7 @@
     </div>
 
     <p class="text-justify text-lg p-10 -mt-20">
-         With a core investment in the trust of many, we built a team of over 100 employees.
+         With a core investment in the trust of many, we built a team of over a 100 employees.
         </p>
 
     <img
@@ -150,7 +150,7 @@
       </div>
     </div>
     <p class="text-justify text-lg p-10 -mt-20">
-        Our founder is onto the next big question - how to continue providing while also protecting the environment.
+        Our founder is onto the next big question - how to protect material while also taking care of the environment?
         </p>
 
 
