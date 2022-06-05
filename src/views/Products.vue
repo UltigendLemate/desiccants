@@ -34,11 +34,11 @@
 <div class="grid justify-center items-center">
 <h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-4xl sm:text-5xl text-center px-3 md:px-0 uppercase" style="font-family: 'Lora', serif;">Our Products</h1>
 </div>
-<div class="grid mx-10 lg:grid-cols-2 overflow-hidden lg:mx-40">
+<div class="grid mx-10 lg:grid-cols-2  lg:mx-40">
 
 
 <!-- SILICA GEL SACHETS  -->
-<div class="grid justify-center items-center px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div class="flex flex-col justify-center  px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/silica-gel.webp" class="rounded-3xl w-full" alt="">
 <div class="">
@@ -57,7 +57,7 @@
 
 </div>
 <div class="relative grid justify-center items-center">
-<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
+<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 pl-4 relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
 </div>
 <div :class="[silica ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class=" w-fit absolute duration-700">
 <ul class="list-disc pl-6 pr-4">
@@ -78,7 +78,7 @@
 </div>
 
 <!-- CALCIUM BASED  -->
-<div class="grid justify-center items-center px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div class="flex flex-col   px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/calcium.webp" class="rounded-3xl w-full" alt="">
 <div class="">
@@ -90,7 +90,7 @@
 
 </div>
 <div class="relative grid justify-center items-center">
-<div  :class="[calcium ? 'opacity-0 -right-10 ':'opacity-100 delay-300 -right-5 ']" class="duration-700  relative "><p>These are made of calcium chloride; a type of salt which traditionally has been used for canning food and pickling purposes due to its preservatory qualities. This acts through a mechanism of absorption.</p>
+<div  :class="[calcium ? 'opacity-0 -right-10 ':'opacity-100 delay-300 -right-5 ']" class="duration-700 pr-7 xl:pr-3  relative "><p>These are made of calcium chloride; a type of salt which traditionally has been used for canning food and pickling purposes due to its preservatory qualities. This acts through a mechanism of absorption.</p>
 </div>
 <div :class="[calcium ? 'opacity-100 delay-300 left-[calc(50%-171px)] sm:left-[calc(50%-191px)] thinner ':'opacity-0  left-[calc(50%-211px)]']" class=" w-fit absolute duration-700">
 <ul class="list-disc pl-6 pr-4">
@@ -112,14 +112,14 @@
 
 
 <!-- CLAY BASED  -->
-<div class="grid justify-center items-center px-3 py-3 pb-8  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-8  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/clay.webp" class="rounded-3xl w-full" alt="">
 <div class="">
 <div class="relative ">
 
 
-<h3 class="text-2xl sm:text-4xl lg:text-2xl text-center my-2 font-semibold" >Clay Based Desiccant</h3>
+<h3 class="text-2xl sm:text-4xl lg:text-2xl text-center my-2   font-semibold" >Clay Based Desiccant</h3>
 
 
 </div>
@@ -147,9 +147,9 @@
 
 
 <!-- ACTIVATED CARBON  -->
-<div class="grid justify-center items-center px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div class="flex flex-col justify-center  px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/act.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/act.webp" class="rounded-3xl  w-full" alt="">
 <div class="">
 <div class="relative ">
 
@@ -159,7 +159,7 @@
 
 
 </div>
-<div class="relative grid justify-center items-center py-7 xl:py-4  2xl:py-0">
+<div class="relative grid justify-center items-center py-7 xl:py-0  2xl:py-0">
 <div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>A highly microporous material which is processed to have small low volume pores leading to a higher surface area. It is often used as a filter for contaminants present in the air as well as the water.</p>
 </div>
 <div :class="[act ? 'opacity-100 delay-300 left-0   thin ':'opacity-0  left-[calc(50%-281px)]']" class="  w-fit  absolute duration-700">
@@ -184,7 +184,7 @@
 <!-- ONE SLIDES FROM HERE ON  -->
 
 <!-- FOOD GRADE  -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/food_grade.webp" class="rounded-3xl w-full" alt="">
 
@@ -220,7 +220,7 @@
 
 
 <!-- Indicative Adsorbers  -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
@@ -254,7 +254,7 @@
 </div>
 
 <!-- Container Desiccants  -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/container.webp" class="rounded-3xl w-full" alt="">
 
@@ -289,7 +289,7 @@
 
 
 <!-- Sustainable Solutions  -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/sustainable.webp" class="rounded-3xl w-full" alt="">
 
@@ -325,7 +325,7 @@
 
 
 <!-- Oxygen Absorber -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
@@ -361,7 +361,7 @@
 
 
 <!--  Anti-Mold Stickers -->
-<div class="flex flex-col justify-center items-center px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
