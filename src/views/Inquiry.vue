@@ -35,7 +35,7 @@
 <h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-5xl text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">FREQUENTLY ASKED QUESTIONS</h1>
 </div>
   <div class="w-full px-4 ">
-    <div class="mx-auto lg:mx-10  md:flex   rounded-2xl bg-white p-2">
+    <div class=" lg:mx-10  md:flex   rounded-2xl bg-white p-2">
 
     <!-- 1st div  -->
      <div class="md:w-1/2 md:pr-3">
@@ -50,7 +50,7 @@
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg  text-gray-500">
-          No.
+          If your products are being kept packed for a long time and it is impossible to keep them air-tight, they need desiccants to keep them safe. Moisture droplets that are always present in the air can condense on products due to temperature change, thus, affecting them negatively.
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
@@ -64,35 +64,35 @@
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          Efficient protection is a result of layering. A thumb rule is to use separate desiccants for each layer of packing depending on the size and quantity of the product.
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>What is your Refund Policy?</span>
+          <span>How much desiccant to use?</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          The number of desiccants for products being shipped can be decided on three important factors; RH level, transit time, and sea route. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>How much do I need?</span>
+          <span>How to use desiccants?</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+         The choice of desiccant depends on the product and the size of the packing. A variety of powdered or beaded forms of desiccants are available as sachets, in a micro canister, or as hanging pouches that can be placed in packets, hung through provided ties and/or hooks.
         </DisclosurePanel>
       </Disclosure></div>
 
@@ -104,56 +104,61 @@
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>How much do I need?</span>
+          <span>How to determine which desiccant to use?</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          The type of desiccant depends on the material of the product and the quantity. Our team of experts has carefully matched the right desiccant with its use and application. You are welcome to contact us and we will provide a complete consultancy for your requirements. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>How to think about protection?</span>
+          <span>Can the desiccant harm my product?</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          Desiccants are passive agents which act as placeholders for water molecules and have no effect on the product they are in contact with.
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>What is your Refund Policy?</span>
+          <span>Do’s</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          Maintain Rh levels and other factors of ambiance in the storage facility according to the guidelines (available on demand).<br>
+Only use desiccants that indicate their date of manufacturing.<br>
+Check performance and compliance test reports for desiccant before approval.
+
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
-          <span>Where do I apply it?</span>
+          <span>Dont’s</span>
           <ChevronUpIcon
             :class="open ? 'rotate-180 transform' : ''"
             class="h-5 w-5 text-purple-500"
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          No.
+          Delay sealing of container/carton or shipment after desiccant placement.<br>
+Leave a bulk-packaged batch of desiccant open.<br>
+Use a desiccant from a batch that has been exposed to air.
         </DisclosurePanel>
       </Disclosure></div>
     </div>
