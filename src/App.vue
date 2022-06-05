@@ -35,7 +35,7 @@
     </div>
   </nav> -->
 
-  <router-view class="overflow-x-hidden" />
+  <router-view  class="overflow-x-hidden" />
 
 <div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href=""><img src="./assets/wp.svg" alt=""></a></div>
 
@@ -242,6 +242,7 @@ export default {
   data(){
     return{
     open:false,
+    isLoading:true
 
     }
   },
