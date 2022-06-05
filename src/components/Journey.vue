@@ -2,7 +2,7 @@
 <main class=" md:mt-12">
 
 
-<h1 class="headingFont text-center mt-11 md:hidden">Our Journey</h1>
+<h1 class="headingFont text-center mt-11 md:hidden" >Our Journey</h1>
 
   <div class="flex flex-col md:hidden justify-center items-center">
     <div class="flex w-full card md:p-24 p-10">
@@ -186,15 +186,15 @@
   <!-- laptop -->
 
   <section id="conference-timeline" class="hidden md:block mx-7">
-  <div class="timeline-start mt-10 px-8 py-5 headingFont rounded-2xl whitespace-nowrap">Our Journey</div>
+  <div class="timeline-start mt-10 px-8 py-5 headingFont rounded-2xl whitespace-nowrap" >Our Journey</div>
     <div class="conference-center-line "></div>
     <div class="conference-timeline-content">
       <!-- Article -->
-      <div class="timeline-article">
-        <div class="content-left-container">
+      <div class="timeline-article" >
+        <div class="content-left-container" >
           <div class="content-left flex w-full card md:p-24  p-10">
-            <div class="w-[400px]">
-              <h3 class="font-bold text-2xl lg:text-3xl mb-2">
+            <div class="w-[400px]" >
+              <h3 class="font-bold text-2xl lg:text-3xl mb-2 relative" >
                 Big Problems need Creative Solutions
               </h3>
               <p class="lg:text-xl mt-5">

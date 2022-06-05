@@ -1,36 +1,158 @@
 <template>
   <div id='products'  class=" py-20 w-full  lg:mx-0  text-center flex flex-col justify-center items-center">
   <div>
-  <h1 class="headingFont mt-3  border-b-2 pb-3 text-center inline-block  w-fit px-3 border-gray-400 border-solid">Our Top Products</h1></div>
+  <h1 class="headingFont mt-3  border-b-2 pb-3 text-center inline-block  w-fit px-3 border-gray-400 border-solid" v-motion
+  :initial="{
+
+    opacity: 0,
+  }"
+  :visible="{
+
+    opacity: 1,
+    transition: {
+      delay:300,
+
+      duration: 400,
+      ease: 'easeIn',
+    },
+  }" >Our Top Products</h1></div>
   <!-- <p class=" bg-clip-text text-transparent bg-gradient-to-br text-black text-justify mt-5"><span class=" block text-2xl text-center  italic"> </span>
 .</p> -->
-<router-link to="/products" class=" flex items-center justify-center">
+<router-link to="/products" v-motion
+  :initial="{
+    opacity: 0,
+  }"
+  :visible="{
+    opacity: 1,
+    transition: {
+      delay:300,
+      ease: 'easeIn',
+
+      duration: 400,
+    },
+  }"  class=" flex items-center justify-center">
 <button class="block mt-6 text-xl border-2 px-4 py-2 hover:border-red-500 hover:text-red-500 hover:relative hover:-top-1 duration-1000 border-black rounded-full w-fit">View Our Catalogue <i class="bi bi-arrow-right"></i></button></router-link>
   
 
 <div   class="grid md:hidden px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/silica-gel_small.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass" v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }"  class="product"><img src="../assets/products/silica-gel_small.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass" v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/clay_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based Desiccant</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass" v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:300,
+      duration: 400,
+    },
+  }" class="product"><img src="../assets/products/clay_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based Desiccant</span></div>
 
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product hideme"><img src="../assets/products/indicative_small.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade Desiccant</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass" v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:500,
+      duration: 400,
+    },
+  }" class="product hideme"><img src="../assets/products/indicative_small.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade Desiccant</span></div>
 
 </div>
 
 
 <div class="md:grid hidden px-5 sm:px-10 w-full lg:px-10  lg:grid-cols-3 grid-cols-2 gap-x-4 sm:gap-x-10 md:gap-x-6 gap-y-6 md:gap-y-5 lg:gap-x-8 lg:gap-y-8  mt-10  justify-center items-center ">
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/silica-gel.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="product"><img src="../assets/products/silica-gel.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product "><img src="../assets/products/act.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 700,
+    },
+  }" class="product "><img src="../assets/products/act.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product"><img src="../assets/products/clay.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based Desiccant</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 900,
+    },
+  }" class="product"><img src="../assets/products/clay.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based Desiccant</span></div>
 
 
-<div @mouseenter="addClass" @mouseleave="removeClass"  class="product hideme"><img src="../assets/products/indicative.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade Desiccant</span></div>
+<div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 1100,
+    },
+  }"  class="product hideme"><img src="../assets/products/indicative.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade Desiccant</span></div>
 
 </div>
 

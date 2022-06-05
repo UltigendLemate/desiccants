@@ -4,7 +4,19 @@
     <Industries/>
     <product-section/>
   <!-- <about-section/> -->
-    <journey/>
+    <journey v-motion
+  :initial="{
+    opacity: 0,
+  }"
+  :visible="{
+    opacity: 1,
+    transition: {
+      delay:300,
+      ease: 'easeIn',
+
+      duration: 600,
+    },
+  }" />
     
      <!-- <Whyus/> -->
 
@@ -45,6 +57,7 @@ export default {
   mounted () {
   window.scrollTo(0, 0)
 }
+  
 }
 </script>
 

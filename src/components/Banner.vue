@@ -113,7 +113,7 @@
   "adaptiveHeight":true,
   "setGallerySize": false }'>
   <div class="carousel-cell flex h-[90vh] main-banner2 relative  md:h-screen  main-banner3  flex-col justify-center items-center  ">
-<div class="mx-10 hidden md:block mt-24"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/D.svg" class="inline -mr-9 md: -mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/I.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+<div  class="mx-10 hidden md:block mt-24"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/D.svg" class="inline -mr-9 md: -mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/I.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
 
 <div class="mx-10 mt-24 md:hidden"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
@@ -174,16 +174,63 @@
 
     
     <swiper-slide><div class="carousel-cell flex h-[90vh] main-banner2 relative backdrop-blur-sm md:h-screen  main-banner3  flex-col justify-center items-center  ">
-<div class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+<div  v-motion
+  :initial="{
 
-<div class="mx-10 mt-24 md:hidden"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
+    opacity: 0,
+  }"
+  :enter="{
+
+    opacity: 1,
+    transition: {
+
+      duration: 400,
+      ease: 'easeIn',
+    },}"  class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+
+<div v-motion
+  :initial="{
+
+    opacity: 0,
+  }"
+  :enter="{
+
+    opacity: 1,
+    transition: {
+      duration: 400,
+      ease: 'easeIn',
+    },}"  class="mx-10 mt-24 md:hidden"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
 
 <!-- <div class="flex justify-center mt-3 lg:mt-0 xl:mt-0"><h4 class="text-center  text-2xl  tracking-wider lg:tracking-widest  font-extrabold text-black  ">Since 1995</h4></div> -->
 
-<button class="bg-white text-black px-4 lg:text-2xl py-2 mt-9 rounded-2xl text-xl tag w-fit">Know More</button>
+<button v-motion
+  :initial="{
 
-<div class="grid w-full text-2xl lg:text-2xl px-4 text-white justify-center items-center xl:tracking-widest  absolute bottom-12"><h2 class="text-center word">COMPLETE SOLUTIONS FOR YOUR MOISTURE PROBLEMS</h2></div>
+    opacity: 0,
+  }"
+  :enter="{
+
+    opacity: 1,
+    transition: {
+      delay : 200,
+      duration: 400,
+      ease: 'easeIn',
+    },}"  class="bg-white text-black px-4 lg:text-2xl py-2 mt-9 rounded-2xl text-xl tag w-fit">Know More</button>
+
+<div v-motion
+  :initial="{
+
+    opacity: 0,
+  }"
+  :enter="{
+
+    opacity: 1,
+    transition: {
+      delay : 200,
+      duration: 600,
+      ease: 'easeIn',
+    },}"  class="grid w-full text-2xl lg:text-2xl px-4 text-white justify-center items-center xl:tracking-widest  absolute bottom-12"><h2 class="text-center word">COMPLETE SOLUTIONS FOR YOUR MOISTURE PROBLEMS</h2></div>
 
 
 </div></swiper-slide>

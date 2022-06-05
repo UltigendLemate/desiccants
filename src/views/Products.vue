@@ -6,11 +6,11 @@
 
     </div>
 
-    <div @click="MenuOpen()" class=" md:hidden text-black  relative left-4 cursor-pointer flex align-middle items-center text-6xl  h-24">
+    <div @click="MenuOpen()" class=" md:hidden text-black z-50 relative left-4 cursor-pointer flex align-middle items-center text-6xl  h-24">
     <i :class="[open?'bi bi-x':'bi bi-filter-left']" class="my-auto "></i>
     </div>
 
-    <ul class="md:flex navlist  px-5 md:pb-0 z-50 md:static absolute top-24  text-2xl bg-white text-black md:text-black  md:bg-transparent overflow-x-hidden  w-full md:w-auto   duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
+    <ul class="md:flex navlist  px-5 md:pb-0  md:static absolute top-24 z-50 text-2xl bg-white text-black md:text-black  md:bg-transparent overflow-x-hidden  w-full md:w-auto   duration-700 ease-in" :class="[open ? 'left-0':'left-[-100%]']">
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
    
@@ -30,7 +30,7 @@
     </ul>
 
   </nav>
-<main class="bg-[#dedede]">
+<main class="bg-[#dedede] -z-40">
 <div class="grid justify-center items-center">
 <h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-4xl sm:text-5xl text-center px-3 md:px-0 uppercase" style="font-family: 'Lora', serif;">Our Products</h1>
 </div>
@@ -38,11 +38,23 @@
 
 
 <!-- SILICA GEL SACHETS  -->
-<div class="flex flex-col justify-center  px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :enter="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="flex flex-col justify-center   px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/silica-gel.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/silica-gel.webp" class="rounded-3xl w-full -z-10" alt="">
 <div class="">
-<div class="relative ">
+<div class="relative -z-20 ">
 
 <!-- <div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative ">
 </div> -->
@@ -78,7 +90,19 @@
 </div>
 
 <!-- CALCIUM BASED  -->
-<div class="flex flex-col   px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :enter="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="flex flex-col   px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/calcium.webp" class="rounded-3xl w-full" alt="">
 <div class="">
@@ -112,7 +136,19 @@
 
 
 <!-- CLAY BASED  -->
-<div class="flex flex-col  px-3 py-3 pb-8  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-8  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/clay.webp" class="rounded-3xl w-full" alt="">
 <div class="">
@@ -147,7 +183,19 @@
 
 
 <!-- ACTIVATED CARBON  -->
-<div class="flex flex-col justify-center  px-3 py-3 pb-10  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="flex flex-col justify-center  px-3 py-3 pb-10  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/act.webp" class="rounded-3xl  w-full" alt="">
 <div class="">
@@ -184,7 +232,19 @@
 <!-- ONE SLIDES FROM HERE ON  -->
 
 <!-- FOOD GRADE  -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/food_grade.png" class="rounded-3xl w-full" alt="">
 
@@ -220,7 +280,19 @@
 
 
 <!-- Indicative Adsorbers  -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
@@ -254,7 +326,19 @@
 </div>
 
 <!-- Container Desiccants  -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/container.webp" class="rounded-3xl w-full" alt="">
 
@@ -289,7 +373,19 @@
 
 
 <!-- Sustainable Sorbents  -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/sustainable.webp" class="rounded-3xl w-full" alt="">
 
@@ -325,7 +421,19 @@
 
 
 <!-- Oxygen Absorber -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:200,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
@@ -361,7 +469,19 @@
 
 
 <!--  Anti-Mold Stickers -->
-<div class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
+<div v-motion
+  :initial="{
+    y: 100,
+    opacity: 0,
+  }"
+  :visible="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay:400,
+      duration: 400,
+    },
+  }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
 <img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
 
@@ -424,7 +544,17 @@
 background: #dedede;
 box-shadow:  9px 9px 18px #c3c3c3,
              -9px -9px 18px #f9f9f9;
+  position: relative ;
+  z-index: 0 !important;
+  
+
+}
+nav{
   position: relative;
+  z-index: 99999 !important;;
+}
+main{
+  z-index: -10 !important;
 }
 
 

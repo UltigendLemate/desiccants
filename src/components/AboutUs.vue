@@ -87,8 +87,21 @@ As an assurance of quality and our dedication to providing that, we have obtaine
   <main class=" industries  bg-gradient-to-r  from-gray-300 to-gray-100 py-16 -z-10">
 
 
-  <div class="grid lg:grid-cols-7 md:mx-20  justify-center items-center ">
-<div class="flex flex-col items-center justify-center lg:col-span-4">
+  <div class="grid lg:grid-cols-7 md:mx-20 overflow-hidden justify-center items-center ">
+<div v-motion
+  :initial="{
+    x:-100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"  class="flex flex-col items-center justify-center lg:col-span-4">
 <div class=" text-center pt-9 headingFont w-fit border-b-2 border-solid border-gray-600  pb-4 px-3">About Us</div>
 <p class="text-lg md:text-xl bg-clip-text text-transparent bg-gradient-to-tl from-black to-[#000b2e] text-justify p-8">Moisture and humidity adversely affect the quality of products and severely harm their integrity.<br>
 With over 25 years of experience in the industry, we at Desiccants India LLP have built a name for ourselves that is synonymous with reliability and quality.<br><br>
@@ -105,10 +118,62 @@ As an assurance of quality and our dedication to providing that, we have obtaine
 <div class="grid  grid-cols-2 lg:col-span-3  gap-y-4  mx-5">
 
 
-<div class="  xl:-mx-5  flex flex-col items-center justify-center"> <img src="../assets/about/iso.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">ISO-9001:2015, <br>ISO-13485 Certified</span></div>
-<div class=" xl:-mx-5  flex flex-col items-center justify-center "> <img src="../assets/about/quality.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Regular Quality<br> Analysis</span></div>
-<div class=" xl:-mx-5  flex flex-col items-center justify-center "> <img src="../assets/about/environmental.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Environmentally <br>Conscious</span></div>
-<div class="  xl:-mx-5  flex flex-col items-center justify-center"> <img src="../assets/about/dedicated_service.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Dedicated <br>Service</span></div>
+<div class="  xl:-mx-5  flex flex-col items-center justify-center" v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/iso.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">ISO-9001:2015, <br>ISO-13485 Certified</span></div>
+<div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/quality.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Regular Quality<br> Analysis</span></div>
+<div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/environmental.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Environmentally <br>Conscious</span></div>
+<div class="  xl:-mx-5  flex flex-col items-center justify-center" v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/dedicated_service.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Dedicated <br>Service</span></div>
 <!-- <div class="  flex flex-col items-center justify-center "> <img src="../assets/industries/pharma.webp" class="w-4/5 rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Pharmaceutical</span></div>
 <div class="   flex flex-col items-center justify-center"> <img src="../assets/industries/electronics.webp" class="w-4/5 rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Electronics</span></div> -->
 

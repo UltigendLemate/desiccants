@@ -2,6 +2,7 @@ import './assets/tailwind.css'
 import { createApp, VueElement } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { MotionPlugin } from '@vueuse/motion'
 
 // import './assets/OurJourney.scss'
 
@@ -37,6 +38,11 @@ app.directive('scrollanimation', (el)=>{
     //   console.log('before enter')
       animatedScrollObserver.observe(el);
 });
+
+
+
+app.use(MotionPlugin)
+
 
 
 
