@@ -159,7 +159,7 @@
 
 
 </div>
-<div class="relative grid justify-center items-center py-7 xl:py-0  2xl:py-0">
+<div class="relative grid justify-center items-center duration-700" :class="[act ? 'py-8 md:py-6 2xl:py-0 ':'']">
 <div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>A highly microporous material which is processed to have small low volume pores leading to a higher surface area. It is often used as a filter for contaminants present in the air as well as the water.</p>
 </div>
 <div :class="[act ? 'opacity-100 delay-300 left-0   thin ':'opacity-0  left-[calc(50%-281px)]']" class="  w-fit  absolute duration-700">
