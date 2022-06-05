@@ -81,16 +81,6 @@
 
 
 
-  <div class="carousel-cell hidden h-[90vh] main-banner2 relative  md:h-screen  main-banner3  flex-col justify-center items-center  ">
-
-<div class="flex justify-center mt-3 lg:mt-0 xl:mt-3"><h4 class="text-center  text-2xl font-extrabold  text-black tracking-wider ">Since 1995</h4></div>
-
-<button class="bg-white text-black px-4 lg:text-2xl py-2 mt-9 rounded-2xl text-xl tag w-fit">Know More</button>
-
-<div class="grid w-full text-xl lg:text-3xl   text-white justify-center items-center  absolute bottom-8"><h2 class="text-center word">COMPLETE SOLUTIONS FOR YOUR MOISTURE PROBLEMS</h2></div>
-
-
-</div>
 
 
   
@@ -111,13 +101,6 @@
 
 
 
-<div class="overflow-x-hidden hidden carousel-cell h-[90vh] md:h-screen w-screen  main-banner  flex-col justify-center  items-center">
-<div class=""><h1 class="text-4xl t-smal font-bold text-center md:text-7xl lg:text-8xl  lg:-mt-36 md:-mt-20 sm:text-5xl">Desiccants India LLP</h1></div>
-<div class="mx-4 md:mx-0 md:w-1/3"><h3 class="mx-5 md:w-3/5  text-3xl font-semibold lg:font-bold mt-5 md:absolute md:bottom-36 md:right-7 lg:right-10 lg:text-6xl sm:text-5xl sm:font-medium text-center md:font-semibold">Complete solutions for your moisture problems</h3></div>
-
-<div class=" flex items-center justify-center">
-<button class="block mt-6 text-xl md:absolute md:bottom-36 md:left-7 lg:left-14 border-2 px-4 py-2 sm:text-3xl  hover:border-red-600 lg:text-4xl -mb-10 sm:mb-0 duration-200 hover:text-red-600 border-black rounded-3xl md:px-8 w-fit font-semibold  text-white bg-opacity-30 lg:border-4"><router-link to="/products"> Know More</router-link> <i class="bi bi-arrow-right"></i></button></div>
-</div>
 
 <!-- CAROUSEL  -->
 
@@ -145,7 +128,7 @@
 </div>
 
   <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>  of container goods lost every year are due to moisture.</h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>of container goods lost every year are due to moisture leading to a heavy loss of goods and money.</h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
@@ -154,20 +137,20 @@
 
 </div>
   <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by a US lab, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures.  </h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product specific desiccants.</h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product-specific desiccants.</h3>
 </div>
 
 </div>
   <div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative humidity in an indicator of the amount of moisture in the air. High RH levels can induce fungal growth, mould formation and general product deterioration. Leather for instance loses its physical integrity at high levels of moisture.   </h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative Humidity is an indicator of the amount of moisture present in the air. Ideally, RH above <span class="text-yellow-300 tag text-5xl">45%</span> can lead to bacterial growth. Higher RH levels can also lead to mold growth and general product deterioration.  </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Preserve.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using high performing and long lasting adsorbents. </h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
 </div>
 
 </div>
@@ -206,30 +189,30 @@
 </div></swiper-slide>
 
     <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 backdrop-blur-md  flex flex-col  justify-center bg2 " >
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>  of container goods lost every year are due to moisture.</h3>
+   <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>of container goods lost every year are due to moisture leading to a heavy loss of goods and money.</h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
 </div>
 
 </div></swiper-slide
     ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center bg3 ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by a US lab, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures.  </h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product specific desiccants.</h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product-specific desiccants.</h3>
 </div>
 
 </div></swiper-slide>
 
 <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col bg4  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative humidity in an indicator of the amount of moisture in the air. High RH levels can induce fungal growth, mould formation and general product deterioration. Leather for instance loses its physical integrity at high levels of moisture.   </h3>
+  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative Humidity is an indicator of the amount of moisture present in the air. Ideally, RH above <span class="text-yellow-300 tag text-5xl">45%</span> can lead to bacterial growth. Higher RH levels can also lead to mold growth and general product deterioration.  </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Preserve.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-white sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using high performing and long lasting adsorbents. </h3>
+<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
 </div>
 
 </div></swiper-slide>
