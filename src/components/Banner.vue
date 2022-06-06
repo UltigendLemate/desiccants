@@ -164,7 +164,7 @@
 
 <div class=" w-full h-[90vh]   md:h-screen">
 <swiper  :modules="modules" :autoplay="{
-      delay: 5500,
+      delay: 7000,
       disableOnInteraction: false,
     }" :loop="true"
     :pagination="{
@@ -184,7 +184,7 @@
     opacity: 1,
     transition: {
 
-      duration: 400,
+      duration: 600,
       ease: 'easeIn',
     },}"  class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
 
