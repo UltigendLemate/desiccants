@@ -113,6 +113,8 @@ Haryana-124507</p>
  
   
   </div>
+
+  <div class="bg-white py-2 text-sm md:text-base text-center">&#169; 2021 Desiccants India LLP. All rights reserved.</div>
   </footer> 
 
  
