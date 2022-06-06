@@ -243,7 +243,7 @@
 </div>
 
 </div></swiper-slide
-    ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col  justify-center bg3 ">
+    ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col prevent justify-center bg3 ">
   <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
@@ -548,7 +548,12 @@ background: url('../assets/pic.jpg');
 background-size: cover;
 }
 
+@media (max-width:600px){
+.prevent{
+  background-position: center;
+}
 
+}
 
 
 </style>
