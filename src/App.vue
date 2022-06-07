@@ -39,7 +39,7 @@
 
 <div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href=""><img src="./assets/wp.svg" alt=""></a></div>
 
-<footer class=""> 
+<!-- <footer class=""> 
 
 
   <div class="lg:grid footer pb-7 bg-black text-white  lg:grid-cols-4">
@@ -115,9 +115,24 @@ Haryana-124507</p>
   </div>
 
   <div class="bg-white py-2 text-sm md:text-base text-center">&#169; 2021 Desiccants India LLP. All rights reserved.</div>
-  </footer> 
+  </footer>  -->
 
  
+
+ <footer class="lg:grid md:grid-cols-5 lg:px-16 xl:px-40 justify-center items-center bg-black">
+  <div class="hidden lg:grid px-4 py-4 max-w-[80px] col-span-1"><img src="./assets/logo_white.png" alt=""></div>
+
+  <div class="  py-2 text-white text-sm md:text-base text-center col-span-3">&#169; 2021 Desiccants India LLP. All rights reserved.</div>
+
+  <div class=" grid-cols-3 hidden lg:grid  gap-x-0 col-span-1">
+    <img  src="https://img.icons8.com/fluency/60/000000/instagram-new.png" />
+    <img src="https://img.icons8.com/fluency/60/000000/facebook-new.png"/>
+    <img src="https://img.icons8.com/color/60/000000/linkedin-circled--v1.png"/>
+    </div>
+ 
+ 
+ 
+ </footer>
 </template>
 
 <style >

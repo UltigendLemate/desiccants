@@ -4,7 +4,7 @@
 
 <h1 class="headingFont text-center mt-11 md:hidden" >Our Journey</h1>
 
-  <div class="flex flex-col md:hidden justify-center items-center">
+  <div class="flex flex-col journeyPhone md:hidden justify-center items-center">
     <div class="flex w-full card md:p-24 p-10">
       <div class="w-3/5">
         <h3 class="font-bold text-2xl sm:text-3xl mb-2">Big Problems need Creative Solutions
@@ -30,7 +30,7 @@
         
 
     <img
-      src="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-down-arrow-orientation-prettycons-solid-prettycons.png"
+      src="../assets/arrow.png " class="h-20"
     />
 
 
@@ -60,8 +60,8 @@
           Despite humble beginnings, our founder actively invested in and automated the silica gel manufacturing process through state-of-the-art technology. 
         </p>
 
-    <img
-      src="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-down-arrow-orientation-prettycons-solid-prettycons.png"
+     <img
+      src="../assets/arrow.png" class="h-20"
     />
 
 
@@ -96,8 +96,8 @@
           Revolutionised the indian market with a new type of adsorbent that opened doors to the pharmaceuticals and the food industry.
         </p>
 
-    <img
-      src="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-down-arrow-orientation-prettycons-solid-prettycons.png"
+     <img
+      src="../assets/arrow.png" class="h-20"
     />
 
 
@@ -126,8 +126,8 @@
          With a core investment in the trust of many, we built a team of over a 100 employees.
         </p>
 
-    <img
-      src="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-down-arrow-orientation-prettycons-solid-prettycons.png"
+     <img
+      src="../assets/arrow.png" class="h-20"
     />
 
 
@@ -145,7 +145,7 @@
     src="https://cdn.lordicon.com/gqzfzudq.json"
     trigger="loop"
     colors="primary:#00B0BD,secondary:#69568A"
-    style="width:100%;height:100%; margin-left:20px">
+    style="width:100%;height:100%; margin-left:20px;">
 </lord-icon>
       </div>
     </div>
@@ -482,10 +482,8 @@ body {
   font-size: 18px;
   line-height: 10px;
 }
-/*===== // Vertical Timeline =====*/
 
-/*===== Resonsive Vertical Timeline =====*/
 
-/*===== // Resonsive Vertical Timeline =====*/
+
 </style>
 
