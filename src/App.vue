@@ -119,7 +119,7 @@ Haryana-124507</p>
 
  
 
- <footer class="lg:grid md:grid-cols-5 lg:px-16 xl:px-40 justify-center items-center bg-black">
+ <!-- <footer class="lg:grid md:grid-cols-5 lg:px-16 xl:px-40 justify-center items-center bg-black">
   <div class="hidden lg:grid px-4 py-4 max-w-[80px] col-span-1"><img src="./assets/logo_white.png" alt=""></div>
 
   <div class="  py-2 text-white text-sm md:text-base text-center col-span-3">&#169; 2021 Desiccants India LLP. All rights reserved.</div>
@@ -132,6 +132,42 @@ Haryana-124507</p>
  
  
  
+ </footer> -->
+
+
+ <footer class="flex flex-col justify-center items-center">
+<div class="h-52 w-full relative bg-gray-500"><p class="absolute bottom-5 lg:left-7 lg:bottom-8 md:text-2xl
+ text-xl left-4 text-white " style="word-spacing:5px;">WE CARE FOR YOUR PRODUCT</p></div>
+<div class="hidden md:block w-full px-32 xl:px-52 py-4">
+<ul class="font-thin flex text-2xl justify-evenly">
+     <li class="text-center   my-2">
+       <router-link to="/" class=" hover:text-[#EE6C4D]">Home</router-link>
+  
+     </li>
+     <li class="text-center   my-2">
+       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
+     </li>
+     <li class="text-center   my-2">
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+     </li>
+     
+     <li class="text-center   my-2">
+       <router-link to="/" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
+     </li>
+     
+     
+     
+    
+    </ul>
+</div>
+  <div class=" grid-cols-3 grid text-4xl md:text-5xl gap-x-4 mt-6 md:mt-12">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    </div>
+<div class="grid p-4  max-w-[180px] "><img src="./assets/logo.png" alt=""></div>
+  <div class=" pb-5 md:text-xl text-lg text-center "> Desiccants India LLP &#169; 2022.<br class="md:hidden"> All rights reserved.</div>
+
  </footer>
 </template>
 
