@@ -31,7 +31,7 @@
    
      </li>
      <li class="  my-5">
-       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/RnD" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class="  my-5">
        <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
@@ -64,7 +64,7 @@
    
      </li>
      <li class=" md:text-3xl my-5 pl-5">
-       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/RnD" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-3xl my-5 pl-5">
        <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>

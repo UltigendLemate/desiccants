@@ -136,8 +136,8 @@ Haryana-124507</p>
 
 
  <footer class="flex flex-col justify-center items-center">
-<div class="h-52 w-full relative bg-gray-500"><p class="absolute bottom-5 lg:left-7 lg:bottom-8 md:text-2xl
- text-xl left-4 text-white " style="word-spacing:5px;">WE CARE FOR YOUR PRODUCT</p></div>
+<div class="h-52 md:h-64 w-full relative wecare bg-gray-500"><p class="absolute bottom-5 lg:left-7 lg:bottom-8 md:text-2xl
+ text-lg left-4 text-white " style="word-spacing:5px;">WE CARE FOR YOUR PRODUCT</p></div>
 <div class="hidden md:block w-full px-32 xl:px-52 py-4">
 <ul class="font-thin flex text-2xl justify-evenly">
      <li class="text-center   my-2">
@@ -145,14 +145,14 @@ Haryana-124507</p>
   
      </li>
      <li class="text-center   my-2">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Products</router-link>
+       <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
      </li>
      <li class="text-center   my-2">
-       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/RnD" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      
      <li class="text-center   my-2">
-       <router-link to="/" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
+       <router-link to="/inquirty" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
      </li>
      
      
@@ -166,7 +166,7 @@ Haryana-124507</p>
     <i class="fa-brands fa-twitter"></i>
     </div>
 <div class="grid p-4  max-w-[180px] "><img src="./assets/logo.png" alt=""></div>
-  <div class=" pb-5 md:text-xl text-lg text-center "> Desiccants India LLP &#169; 2022.<br class="md:hidden"> All rights reserved.</div>
+  <div class=" pb-5 md:text-xl  text-center "> Desiccants India LLP &#169; 2022.<br class="md:hidden"> All rights reserved.</div>
 
  </footer>
 </template>
@@ -180,6 +180,11 @@ Haryana-124507</p>
 
 html {
   scroll-behavior: smooth !important;
+}
+.wecare{
+  background: url('./assets/footer.png') ;
+  background-size: cover;
+  background-position-y: 60%;
 }
 
 #app {

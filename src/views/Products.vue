@@ -16,7 +16,7 @@
    
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
-       <router-link to="/products" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/RnD" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/products" class=" hover:text-[#EE6C4D] font-bold">Products</router-link>
@@ -30,7 +30,7 @@
     </ul>
 
   </nav>
-<main class="bg-[#dedede] -z-40">
+<main class="bg-[#dedede] -z-40 pb-10">
 <div class="grid justify-center items-center">
 <h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-4xl sm:text-5xl text-center px-3 md:px-0 uppercase" style="font-family: 'Lora', serif;">Our Products</h1>
 </div>
@@ -150,7 +150,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-8  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/clay.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/clay1.webp" class="rounded-3xl w-full" alt="">
 <div class="">
 <div class="relative ">
 
@@ -246,7 +246,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/food_grade.png" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/food1.webp" class="rounded-3xl w-full" alt="">
 
 <div class="relative ">
 
@@ -340,7 +340,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/container.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/container1.webp" class="rounded-3xl w-full" alt="">
 
 <div class="relative ">
 
@@ -435,7 +435,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/oxygen.webp" class="rounded-3xl w-full" alt="">
 
 <div class="relative ">
 
@@ -483,7 +483,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/indicative.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/antimold.webp" class="rounded-3xl w-full" alt="">
 
 <div class="relative ">
 
@@ -526,7 +526,7 @@
 
   </main>
 </template>
-<style>
+<style scoped>
 
 
 @media (max-width: 440px){

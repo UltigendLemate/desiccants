@@ -16,7 +16,7 @@
    
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
-       <router-link to="/about" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
+       <router-link to="/RnD" class=" hover:text-[#EE6C4D]">R&amp;D</router-link>
      </li>
      <li class=" md:text-2xl my-5 pl-5 md:mx-4">
        <router-link to="/products" class=" hover:text-[#EE6C4D]">Products</router-link>
