@@ -137,7 +137,7 @@ Haryana-124507</p>
 
  <footer class="flex flex-col justify-center items-center">
 <div class="h-52 md:h-64 w-full relative wecare bg-gray-500"><p class="absolute bottom-5 lg:left-7 lg:bottom-8 md:text-2xl
- text-lg left-4 text-white " style="word-spacing:5px;">WE CARE FOR YOUR PRODUCT</p></div>
+  left-4 text-white " style="word-spacing:5px;">WE CARE FOR YOUR PRODUCT</p></div>
 <div class="hidden md:block w-full px-32 xl:px-52 py-4">
 <ul class="font-thin flex text-2xl justify-evenly">
      <li class="text-center   my-2">
@@ -172,7 +172,14 @@ Haryana-124507</p>
 </template>
 
 <style >
-@import url(//db.onlinewebfonts.com/c/db8cfc8f593f2e47bd9bd157e455c494?family=Athelas-Bold);
+@font-face {font-family: "Athelas-Bold";
+    src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.svg#Athelas-Bold") format("svg"); /* iOS 4.1- */
+}
 
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
