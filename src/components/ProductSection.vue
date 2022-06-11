@@ -109,7 +109,7 @@
       delay:200,
       duration: 400,
     },
-  }" class="product"><img src="../assets/products/silica-gel.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
+  }" class="product"><img src="../assets/products/silica-gel.webp"   class="w-full bg-[#98C1D9] rounded-md  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel Sachets</span></div>
 
 <div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
   :initial="{
@@ -123,7 +123,7 @@
       delay:200,
       duration: 700,
     },
-  }" class="product "><img src="../assets/products/act.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
+  }" class="product "><img src="../assets/products/act.webp"  class="w-full bg-[#98C1D9] rounded-md" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon Pouches</span></div>
 
 <div @mouseenter="addClass" @mouseleave="removeClass"  v-motion
   :initial="{
@@ -137,7 +137,7 @@
       delay:200,
       duration: 900,
     },
-  }" class="product"><img src="../assets/products/clay.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based Desiccant</span></div>
+  }" class="product"><img src="../assets/products/indicative.webp"  class="w-full bg-[#98C1D9] rounded-md  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Indicative Adsorbers </span></div>
 
 
 <div @mouseenter="addClass" @mouseleave="removeClass"  v-motion

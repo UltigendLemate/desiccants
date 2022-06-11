@@ -387,7 +387,7 @@
     },
   }" class="flex flex-col  px-3 py-3 pb-5  productCard  md:mx-5 my-5">
 
-<img src="../assets/products/sustainable.webp" class="rounded-3xl w-full" alt="">
+<img src="../assets/products/sustainable.webp" class="rounded-3xl  w-full" alt="">
 
 <div class="relative ">
 

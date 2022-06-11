@@ -36,7 +36,7 @@
 </div>
 <div class="grid mx-5 justify-center lg:mx-auto">
 
-<div class="productCard max-w-[1000px] py-5 lg:text-lg px-3">
+<div class="productCard max-w-[1000px] text-justify py-5 lg:text-lg px-3">
 <div class="flex flex-col lg:flex-row py-3  items-center justify-center   w-full ">
 <div class="lg:w-1/2 w-full lg:ml-4">
 <img src="../assets/graphs/graph1.svg" class="rounded-3xl w-full" alt="">

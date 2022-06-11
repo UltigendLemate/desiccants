@@ -132,7 +132,7 @@
 
       duration: 600,
       ease: 'easeIn',
-    },}"  class="mx-10 hidden md:block mt-12"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
+    },}"  class="mx-10 hidden md:block relative -top-4"><h1 class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl"><img src="../assets/Dr.svg" class="inline -mr-9 md:-mt-3 lg:-mr-10 xl:-mr-12 xl:h-28  lg:-mt-6 lg:h-[85px] md:h-[75px] " alt="D"> ESICCANTS<span class="whitespace-nowrap lg:whitespace-normal  md:mt-2"><img src="../assets/Ir.svg" class="inline -ml-8 mr-1 xl:mr-2 -mt-16 lg:-mt-16 xl:-mt-[70px] h-14 lg:h-[110px] xl:h-[134px] md:h-[100px]  md:-mt-14" style="word-spacing:30px;" alt="I">NDIA <span class="ml-3"> LLP</span></span></h1></div>
 
 <div v-motion
   :initial="{
@@ -145,7 +145,7 @@
     transition: {
       duration: 400,
       ease: 'easeIn',
-    },}"  class="mx-10 mt-24 md:hidden"><h1 style="word-spacing: 5px;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
+    },}"  class="mx-10 mt-24 md:hidden"><h1 style="word-spacing: 5px; font-family: 'Athelas-Bold' ;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
 
 <!-- <div class="flex justify-center mt-3 lg:mt-0 xl:mt-0"><h4 class="text-center  text-2xl  tracking-wider lg:tracking-widest  font-extrabold text-black  ">Since 1995</h4></div> -->
@@ -162,7 +162,7 @@
       delay : 200,
       duration: 400,
       ease: 'easeIn',
-    },}"  class="bg-white text-black px-4 lg:text-2xl py-2 mt-9 rounded-2xl text-xl tag w-fit">Know More</button>
+    },}"  class=" hidden font-bold  lg:text-2xl  mt-9 rounded-full text-4xl tag w-fit"><i class="bi bi-arrow-bar-down"></i></button>
 
 <div v-motion
   :initial="{
@@ -181,30 +181,30 @@
 
 </div></swiper-slide>
 <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 backdrop-blur-md  flex flex-col  justify-center bg2 " >
-   <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>of container goods lost every year are due to moisture leading to a heavy loss of goods and money.</h3>
-<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Protect.</h1></div>
+   <h3 class=" mx-10 text-xl  lg:text-[27px] text-[#DCC4A4] sm:text-2xl sm:font-medium ">Frequent temperature variations over long sea transits lead to container rain. Approximately <span class="text-yellow-300 tag text-5xl">10%</span>of container goods lost every year are due to moisture leading to a heavy loss of goods and money.</h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl   text-white  sm:text-6xl">Protect.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
+<h3 class="   text-xl  lg:text-[27px] text-white sm:text-2xl sm:font-medium mt-3">Keep your goods safe by using three tier packaging specially designed to keep products safe and containers moisture free. </h3>
 </div>
 
 </div></swiper-slide
     ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col prevent justify-center bg3 ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
-<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Prevent.</h1></div>
+  <h3 class=" mx-10 text-xl  lg:text-[27px] text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-5xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl   text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product-specific desiccants.</h3>
+<h3 class="   text-xl  lg:text-[27px] text-white sm:text-2xl sm:font-medium mt-3">Prevent damage of electronics and other equipments by using carefully crafted product-specific desiccants.</h3>
 </div>
 
 </div></swiper-slide>
 
 <swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col bg4  justify-center  ">
-  <h3 class=" mx-10 text-xl  lg:text-3xl text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative Humidity is an indicator of the amount of moisture present in the air. Ideally, RH above <span class="text-yellow-300 tag text-5xl">45%</span> can lead to bacterial growth. Higher RH levels can also lead to mold growth and general product deterioration.  </h3>
-<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl lg:text-8xl  text-white  sm:text-6xl">Preserve.</h1></div>
+  <h3 class=" mx-10 text-xl  lg:text-[27px] text-[#DCC4A4] sm:text-2xl sm:font-medium ">Relative Humidity is an indicator of the amount of moisture present in the air. Ideally, RH above <span class="text-yellow-300 tag text-5xl">45%</span> can lead to bacterial growth. Higher RH levels can also lead to mold growth and general product deterioration.  </h3>
+<div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl   text-white  sm:text-6xl">Preserve.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-3xl text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
+<h3 class="   text-xl  lg:text-[27px] text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
 </div>
 
 </div></swiper-slide> 
@@ -270,6 +270,7 @@
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url(https://db.onlinewebfonts.com/c/db8cfc8f593f2e47bd9bd157e455c494?family=Athelas-Bold);
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@596&display=swap');

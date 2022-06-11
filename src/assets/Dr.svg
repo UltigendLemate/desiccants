@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,8 +43,8 @@
      id="namedview12"
      showgrid="false"
      inkscape:zoom="1.6698113"
-     inkscape:cx="51.050842"
-     inkscape:cy="141.33333"
+     inkscape:cx="83.988696"
+     inkscape:cy="117.37853"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -55,8 +55,16 @@
      stroke="none"
      id="g8">
     <path
-       d="M2 1830 l3 -263 55 -13 c173 -44 322 -167 380 -314 96 -243 -7 -524 -240 -652 -59 -33 -86 -43 -172 -62 l-28 -6 0 -261 c0 -243 1 -260 18 -255 9 2 44 7 77 11 202 23 450 145 606 297 134 131 244 313 288 478 45 164 46 357 5 515 -26 98 -116 272 -187 361 -175 219 -468 382 -755 420 l-52 7 2 -263z"
+       clip-path="none"
+       style="fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:15.24750042;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path816"
+       d="m 1.9999999,1800 3,-263 L 60,1524 C 233,1480 382,1357 440,1210 536,967 433,686 200,558 141,525 114,515 28,496 L -1.0161236e-7,490 V 229 C -1.0161236e-7,-14 0.9999999,-31 18,-26 c 9,2 44,7 77,11 202,22.9999999 450,145 606,297 134,131 244,313 288,478 45,164 46,357 5,515 -26,98 -116,272 -187,361 -175,219 -468,382 -755,420 L -1.0161236e-7,2063 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 2,1845 3,-263 55,-13 C 233,1525 382,1402 440,1255 536,1012 433,731 200,603 141,570 114,560 28,541 L 0,535 V 274 C 0,31 1,14 18,19 c 9,2 44,7 77,11 202,23 450,145 606,297 134,131 244,313 288,478 45,164 46,357 5,515 -26,98 -116,272 -187,361 -175,219 -468,382 -755,420 l -52,7 z"
        id="path2"
-       style="stroke:#f7f7f7;stroke-opacity:1;stroke-width:15.2475001;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="stroke:none;stroke-width:15.24750042;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="none"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

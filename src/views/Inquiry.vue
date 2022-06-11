@@ -31,8 +31,50 @@
 
   </nav>
 
-<div class="grid justify-center items-center">
-<h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-5xl text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">FREQUENTLY ASKED QUESTIONS</h1>
+<div class="grid justify-center">
+<h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-5xl  text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">CONTACT US</h1>
+</div>
+
+<div class="grid md:grid-cols-2 overflow-hidden md:mt-8 mt-3 text-black  lg:pt-10 md:pb-10 ">
+ <div class="hidden flex-col mx-6 md:flex text-xl  justify-center productCard text-left mt-8 py-7  md:mr-3 md:ml-6 ">
+<h2 class="text-[40px] md:text-5xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here</h2>
+<h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
+
+
+<div class="grid grid-cols-2 justify-center text-center items-center mx-16">
+<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9212025689" class="  block"><i class="bi bi-telephone-fill"></i> 9212025689</a>
+<a href="tel:9810987954" class=" block  "><i class="bi bi-telephone-fill"></i>  9810987954</a></p>
+
+
+<p class=" px-10 text-[18px] py-3 -ml-12"><span class="font-bold block pb-3 text-gray-500">Email Us:  </span> <a  href="mailto:mktg@desiccantsindia.com" class="  block whitespace-nowrap"><i class="bi bi-envelope-fill"></i> mktg@desiccantsindia.com</a>
+<a  href="mailto:desiccantsindia@yahoo.co.in" class=" block whitespace-nowrap cursor-pointer "><i class="bi bi-envelope-fill"></i> desiccantsindia@yahoo.co.in</a></p>
+</div>
+</div>
+<div class="md:mx-3 md:px-3 ">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.152147688517!2d76.9491998149246!3d28.68509498239709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0ecdbfffffff%3A0x66353ce6c94119b9!2sDESICCANTS%20INDIA!5e0!3m2!1sen!2sin!4v1654004682967!5m2!1sen!2sin" width="80%" height="350" class="md:rounded-2xl" style="margin: 0 auto; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+  <div class="flex flex-col mx-6 md:hidden text-xl justify-center productCard text-left mt-8 py-7  md:mr-3 md:ml-6 ">
+<h2 class="text-[40px] md:text-6xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here</h2>
+<h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
+
+<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9810987954" class="  block"><i class="bi bi-telephone-fill"></i> 9810987954</a>
+<a href="tel:9212025689" class=" block  "><i class="bi bi-telephone-fill"></i> 9212025689</a></p>
+
+
+
+
+<p class=" px-10 text-[18px] py-3 "><span class="font-bold block pb-3 text-gray-500">Email Us:  </span> <a  href="mailto:mktg@desiccantsindia.com" class="  block whitespace-nowrap"><i class="bi bi-envelope-fill"></i> mktg@desiccantsindia.com</a>
+<a  href="mailto:desiccantsindia@yahoo.co.in" class=" block whitespace-nowrap  "><i class="bi bi-envelope-fill"></i> desiccantsindia@yahoo.co.in</a></p>
+
+</div>
+  </div>
+
+
+
+  <div class="grid justify-center items-center">
+<h1 class="  pt-8 mb-5  md:mt-8  w-fit  text-4xl text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">FREQUENTLY ASKED QUESTIONS</h1>
 </div>
   <div class="w-full px-4 ">
     <div class=" lg:mx-10  md:flex   rounded-2xl bg-white p-2">
@@ -81,7 +123,10 @@
           The number of desiccants for products being shipped can be decided on three important factors; RH level, transit time, and sea route. 
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
+     
+
+
+       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
@@ -94,7 +139,8 @@
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
          The choice of desiccant depends on the product and the size of the packing. A variety of powdered or beaded forms of desiccants are available as sachets, in a micro canister, or as hanging pouches that can be placed in packets, hung through provided ties and/or hooks.
         </DisclosurePanel>
-      </Disclosure></div>
+      </Disclosure>
+      </div>
 
 
 
@@ -128,7 +174,8 @@
           Desiccants are passive agents which act as placeholders for water molecules and have no effect on the product they are in contact with.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
+     
+       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
@@ -139,9 +186,14 @@
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          Maintain Rh levels and other factors of ambiance in the storage facility according to the guidelines (available on demand).<br>
-Only use desiccants that indicate their date of manufacturing.<br>
-Check performance and compliance test reports for desiccant before approval.
+        <ul class="list-disc px-4">
+        <li>Maintain Rh levels and other factors of ambiance in the storage facility according to the guidelines (available on demand).</li>
+        <li>Only use desiccants that indicate their date of manufacturing.</li>
+        <li>Check performance and compliance test reports for desiccant before approval.</li>
+        
+        </ul>
+         
+
 
         </DisclosurePanel>
       </Disclosure>
@@ -156,24 +208,17 @@ Check performance and compliance test reports for desiccant before approval.
           />
         </DisclosureButton>
         <DisclosurePanel class="disc px-4 pt-4 pb-2 text-lg text-gray-500">
-          Delay sealing of container/carton or shipment after desiccant placement.<br>
-Leave a bulk-packaged batch of desiccant open.<br>
-Use a desiccant from a batch that has been exposed to air.
+
+        <ul class="list-disc px-4">
+          <li>Delay sealing of container/carton or shipment after desiccant placement.</li>
+          <li>Leave a bulk-packaged batch of desiccant open.</li>
+          <li>Use a desiccant from a batch that has been exposed to air.</li>
+        </ul>
+          
+
         </DisclosurePanel>
       </Disclosure></div>
     </div>
-  </div>
-
-
-<div class="grid md:grid-cols-2 overflow-hidden md:mt-8 mt-3 text-white bg-blue-500 pt-10 md:pb-10 ">
-<div class="flex flex-col justify-center items-center map md:mr-3 md:ml-6 ">
-<h2 class="text-[55px] md:text-6xl lg:text-7xl xl:text-8xl text-center " style="font-family: 'Lora', serif;">WE'RE HERE</h2>
-<h3 class="text-4xl lg:text-5xl text-justify md:text-center  pt-3 md:pt-7 lg:pt-6 pb-10 px-10">Feel free to reach out to us and obtain free samples.</h3>
-
-</div>
-<div class="md:mx-3 md:px-3 ">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.152147688517!2d76.9491998149246!3d28.68509498239709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0ecdbfffffff%3A0x66353ce6c94119b9!2sDESICCANTS%20INDIA!5e0!3m2!1sen!2sin!4v1654004682967!5m2!1sen!2sin" width="100%" height="450" class="md:rounded-2xl" style="margin: 0 auto; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
   </div>
 
 </template>

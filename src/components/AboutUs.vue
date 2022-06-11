@@ -132,34 +132,7 @@ As an assurance of quality and our dedication to providing that, we have obtaine
       duration: 500,
       ease: 'easeInOut',
     },}"> <img src="../assets/about/iso.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">ISO-9001:2015, <br>ISO-13485 Certified</span></div>
-<div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
-  :initial="{
-    x:100,
-    opacity: 0,
-  }"
-  :visible="{
-    x:0,
 
-    opacity: 1,
-    transition: {
-      delay : 150,
-      duration: 500,
-      ease: 'easeInOut',
-    },}"> <img src="../assets/about/quality.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Regular Quality<br> Analysis</span></div>
-<div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
-  :initial="{
-    x:100,
-    opacity: 0,
-  }"
-  :visible="{
-    x:0,
-
-    opacity: 1,
-    transition: {
-      delay : 150,
-      duration: 500,
-      ease: 'easeInOut',
-    },}"> <img src="../assets/about/environmental.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Environmentally <br>Conscious</span></div>
 <div class="  xl:-mx-5  flex flex-col items-center justify-center" v-motion
   :initial="{
     x:100,
@@ -174,6 +147,38 @@ As an assurance of quality and our dedication to providing that, we have obtaine
       duration: 500,
       ease: 'easeInOut',
     },}"> <img src="../assets/about/dedicated_service.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Dedicated <br>Service</span></div>
+
+<div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/environmental.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Environmentally <br>Conscious</span></div>
+
+
+    <div class=" xl:-mx-5  flex flex-col items-center justify-center " v-motion
+  :initial="{
+    x:100,
+    opacity: 0,
+  }"
+  :visible="{
+    x:0,
+
+    opacity: 1,
+    transition: {
+      delay : 150,
+      duration: 500,
+      ease: 'easeInOut',
+    },}"> <img src="../assets/about/quality.png" class="w-4/5 xl:p-10 xl:-m-10  " alt=""><span class="text-center block font-semibold  my-2 lg:mt-3 text-sm sm:text-base">Regular Quality<br> Analysis</span></div>
+
 <!-- <div class="  flex flex-col items-center justify-center "> <img src="../assets/industries/pharma.webp" class="w-4/5 rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Pharmaceutical</span></div>
 <div class="   flex flex-col items-center justify-center"> <img src="../assets/industries/electronics.webp" class="w-4/5 rounded-full" alt=""><span class="text-center block font-semibold  my-2 lg:mt-4">Electronics</span></div> -->
 
