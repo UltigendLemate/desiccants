@@ -69,10 +69,10 @@
 
 </div>
 <div class="relative grid justify-center items-center">
-<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 pl-4 relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
+<div  :class="[silica ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 px-4 text-justify sm:text-left relative "><p>Silica gel is a porous chemical scientifically known as silicon dioxide which is made of alternating silicon and oxygen atoms set three-dimensionally. This irregular framework leads to the formation of voids that can hold moisture thus, acting as an adsorbent.</p>
 </div>
 <div :class="[silica ? 'opacity-100 delay-300 left-[calc(50%-171px)] thin ':'opacity-0  left-[calc(50%-211px)]']" class=" w-fit absolute duration-700">
-<ul class="list-disc pl-6 pr-4">
+<ul class="list-disc pl-6 pr-7">
 <li  class="my-2">Non-toxic and non hazardous</li>
 <li class="my-2">Inert and pH neutral</li>
 <li class="my-2">High absorption capacity at high RH levels</li>
@@ -114,10 +114,10 @@
 
 </div>
 <div class="relative grid justify-center items-center">
-<div  :class="[calcium ? 'opacity-0 -right-10 ':'opacity-100 delay-300 -right-5 ']" class="duration-700 pr-7 xl:pr-3  relative "><p>These are made of calcium chloride; a type of salt which traditionally has been used for canning food and pickling purposes due to its preservatory qualities. This acts through a mechanism of absorption.</p>
+<div  :class="[calcium ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 px-4  xl:pr-3 text-justify relative "><p>These are made of calcium chloride; a type of salt which traditionally has been used for canning food and pickling purposes due to its preservatory qualities. This acts through a mechanism of absorption.</p>
 </div>
 <div :class="[calcium ? 'opacity-100 delay-300 left-[calc(50%-171px)] sm:left-[calc(50%-191px)] thinner ':'opacity-0  left-[calc(50%-211px)]']" class=" w-fit absolute duration-700">
-<ul class="list-disc pl-6 pr-4">
+<ul class="list-disc pl-6 pr-4 mr-3">
 <li  class="my-2">Naturally occurring and environment friendly</li>
 <li class="my-2">High absorption capacity</li>
 <li class="my-2">Widespread usage in sea cargos</li>
@@ -159,8 +159,8 @@
 
 
 </div>
-<div class="relative grid justify-center py-3 lg:py-0   items-center">
-<div  :class="[clay ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>Made from a naturally occurring mineral called bentonite clay that results from aged volcanic ash. Has a variety of uses as it can act both as an adsorent as well as an absorbent depending on the material.</p>
+<div class="relative grid justify-center pb-3 lg:py-0   items-center">
+<div  :class="[clay ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 text-justify px-4 relative "><p>Made from a naturally occurring mineral called bentonite clay that results from aged volcanic ash. Has a variety of uses as it can act both as an adsorent as well as an absorbent depending on the material.</p>
 </div>
 <div :class="[clay ? 'opacity-100 delay-300 left-[calc(50%-141px)]  thin ':'opacity-0  left-[calc(50%-211px)]']" class=" w-fit -top-2 absolute duration-700">
 <ul class="list-disc pl-6 pr-4">
@@ -208,10 +208,10 @@
 
 </div>
 <div class="relative grid justify-center items-center duration-700" :class="[act ? 'py-8 md:py-6 2xl:py-0 ':'']">
-<div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700  relative "><p>A highly microporous material which is processed to have small low volume pores leading to a higher surface area. It is often used as a filter for contaminants present in the air as well as the water.</p>
+<div  :class="[act ? 'opacity-0 -right-10 ':'opacity-100 delay-300 right-0 ']" class="duration-700 p-4 text-justify  relative "><p>A highly microporous material which is processed to have small low volume pores leading to a higher surface area. It is often used as a filter for contaminants present in the air as well as the water.</p>
 </div>
 <div :class="[act ? 'opacity-100 delay-300 left-0   thin ':'opacity-0  left-[calc(50%-281px)]']" class="  w-fit  absolute duration-700">
-<ul class="list-disc pl-6  sm:pl-[20%] md:pl-12 lg:pl-16 pr-4">
+<ul class="list-disc pl-5  sm:pl-[20%] md:pl-12 lg:pl-16 pr-4">
 <li  class="">Acts as an economical adsorbent for many industries</li>
 <li class="">Can be produced from renewable resources</li>
 <li class="">Absorbs inherent product smell such as that in plastic</li>
