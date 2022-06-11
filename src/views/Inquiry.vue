@@ -35,7 +35,7 @@
 <h1 class="  pt-8   md:mt-8  w-fit  text-5xl mb-5 md:mb-0 text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">CONTACT US</h1>
 </div>
 
-<div class="grid md:grid-cols-2 items-center overflow-hidden md:mt-8 mt-3 text-black  lg:pt-0 md:pb-10 ">
+<div class="grid md:grid-cols-2 items-center justify-center md:mt-8 mt-3 text-black  lg:pt-0 md:pb-10 ">
  <div class="hidden flex-col mx-6 md:flex text-xl  justify-center productCard text-left  py-7  md:mr-3 md:ml-8 xl:ml-20 ">
 <h2 class="text-[30px] md:text-4xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here!</h2>
 <h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
@@ -50,12 +50,12 @@
 <a  href="mailto:desiccantsindia@yahoo.co.in" class=" block whitespace-nowrap cursor-pointer "><i class="bi bi-envelope-fill"></i> desiccantsindia@yahoo.co.in</a></p>
 </div>
 </div>
-<div class="md:mx-3 md:px-3 ">
+<div class="md:mx-3 md:px-3 scale-95 sm:scale-100 -z-10 relative ">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.152147688517!2d76.9491998149246!3d28.68509498239709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0ecdbfffffff%3A0x66353ce6c94119b9!2sDESICCANTS%20INDIA!5e0!3m2!1sen!2sin!4v1654004682967!5m2!1sen!2sin" width="80%" height="350" class="md:rounded-2xl" style="margin: 0 auto; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 
-  <div class="flex flex-col mx-6 md:hidden text-xl justify-center productCard text-left mt-8 py-7  md:mr-3 md:ml-6 ">
+  <div class="flex flex-col mx-10 scale-95 md:hidden text-xl justify-center productCard text-left mt-8 py-7  md:mr-3 md:ml-6 ">
 <h2 class="text-[40px] md:text-6xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here</h2>
 <h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
 
@@ -242,11 +242,24 @@ export default {
     MenuOpen(){
       this.open = !this.open
     }
-  }
+  },
+   mounted () {
+  window.scrollTo(0, 0)
+}
 }
 </script>
 
 <style>
+.productCard{
+  border-radius: 24px;
+background: #dedede;
+box-shadow:  9px 9px 18px #c3c3c3,
+             -9px -9px 18px #f9f9f9;
+  position: relative ;
+  z-index: 0 !important;
+  
+
+}
 .disc{
 @apply bg-gray-100 -mt-1;
 }

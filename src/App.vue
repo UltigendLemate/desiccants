@@ -37,7 +37,7 @@
 
   <router-view  class="overflow-x-hidden" />
 
-<div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href=""><img src="./assets/wp.svg" alt=""></a></div>
+<div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href="https://wa.me/+919212025689" target="_blank"><img src="./assets/wp.svg" alt=""></a></div>
 
 <!-- <footer class=""> 
 
@@ -152,7 +152,7 @@ Haryana-124507</p>
      </li>
      
      <li class="text-center   my-2">
-       <router-link to="/inquirty" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
+       <router-link to="/inquiry" class=" hover:text-[#EE6C4D]">Inquiry</router-link>
      </li>
      
      

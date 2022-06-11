@@ -236,7 +236,7 @@ e.target.classList.remove("hovered");
   @apply lg:absolute  lg:bg-white lg:px-4  lg:rounded-xl lg:top-[calc(50%-28px)] lg:bg-opacity-60 duration-300;
 }
 .product{
-  @apply flex relative  items-center flex-col h-full  ;
+  @apply flex relative items-center justify-start   flex-col h-full  ;
  /* w-1/2 px-4 sm:my-5 my-2 md:w-1/4 ;
 */}
 

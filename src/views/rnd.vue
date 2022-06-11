@@ -98,7 +98,7 @@ An efficient desiccant is a combination of a good quality adsorbing/absorbing ma
 
 <p>We wanted to innovate the packaging used for food grade material in order to maximise
 performance as products in direct contact with edibles can affect the health of people. 
-We compared the conventional packaging that food grade desiccant coms in with a new non-woven material on its air permeability.</p>
+We compared the conventional packaging that food grade desiccant comes in with a new non-woven material on its air permeability.</p>
 
 </div></div>
 
@@ -227,8 +227,8 @@ export default {
       modules: [EffectCube, Pagination],
     };
   },
-//   mounted () {
-//   window.scrollTo(0, 0)
-// }
+  mounted () {
+  window.scrollTo(0, 0)
+}
 };
 </script>

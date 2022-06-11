@@ -145,7 +145,7 @@
     transition: {
       duration: 400,
       ease: 'easeIn',
-    },}"  class="mx-10 mt-24 md:hidden"><h1 style="word-spacing: 5px;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
+    },}"  class="mx-10 mt-6 md:hidden"><h1 style="word-spacing: 5px;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
 
 <!-- <div class="flex justify-center mt-3 lg:mt-0 xl:mt-0"><h4 class="text-center  text-2xl  tracking-wider lg:tracking-widest  font-extrabold text-black  ">Since 1995</h4></div> -->
@@ -190,7 +190,7 @@
 
 </div></swiper-slide
     ><swiper-slide><div class=" carousel-cell h-[90vh] md:px-8 md:h-screen main-banner2 flex flex-col prevent justify-center bg3 ">
-  <h3 class=" mx-10 text-xl  lg:text-[28px] text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-4xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even aircraft failures. </h3>
+  <h3 class=" mx-10 text-xl  lg:text-[28px] text-[#DCC4A4] sm:text-2xl sm:font-medium ">As reported by Sandia National Laboratories in a paper, corrosion due to water accounts for <span class="text-yellow-300 tag text-4xl">20%</span> of electronics failures. Moisture intrusion has been known to cause product fires and even airplane failures. </h3>
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl   text-white  sm:text-6xl">Prevent.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
@@ -204,7 +204,7 @@
 <div class="mx-10 mt-6"><h1 class="text-5xl  font-bold  md:text-7xl   text-white  sm:text-6xl">Preserve.</h1></div>
 <div class="mx-10 md:mr-16  pt-6 ">
 
-<h3 class="   text-xl  lg:text-[28px] text-neutral-400 sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
+<h3 class="   text-xl  lg:text-[28px] text-white sm:text-2xl sm:font-medium mt-3">Increase the shelf life of your products by using efficent and longer lasting adsorbents with high absorption capacity. </h3>
 </div>
 
 </div></swiper-slide> 

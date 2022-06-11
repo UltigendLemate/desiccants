@@ -93,7 +93,7 @@
     </div>
 
     <p class="text-justify text-lg p-10 -mt-20">
-          Revolutionised the indian market with a new type of adsorbent that opened doors to the pharmaceuticals and the food industry.
+          Revolutionised the Indian market with a new type of adsorbent that opened doors to the pharmaceuticals and the food industry.
         </p>
 
      <img
@@ -259,7 +259,7 @@
                 Big Steps lead to Great Vision
               </h3>
               <p class="lg:text-xl mt-5">
-                Found a great untapped market in the form of the export industry. Clientele doubled.
+                Revolutionised theIindian market with a new type of adsorbent that opened doors to the pharmaceuticals and the food industry.
               </p>
             </div>
 
