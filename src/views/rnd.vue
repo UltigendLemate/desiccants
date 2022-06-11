@@ -65,6 +65,25 @@ An efficient desiccant is a combination of a good quality adsorbing/absorbing ma
 
 
 </div>
+
+<div class="grid w-full justify-center items-center mt-6 text-xl " v-if="!article">
+<button class="bg-white px-12 tracking-wide py-2 rounded-xl font-bold" style="font-family:'Montserrat';" @click="article = !article">Read More</button>
+</div>
+
+<!-- MEGA DIV STARTS -->
+<div class="megadiv relative duration-700" v-if="article" v-motion
+  :initial="{
+    y: -100,
+    opacity: 0,
+  }"
+  :enter="{
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 100
+    },
+  }">
+
 <div class="flex flex-col -mt-3 lg:mt-0"><div class="relative grid   px-3 md:px-6 items-center">
 
 
@@ -115,6 +134,14 @@ Weight in grams is an indicator for the amount of moisture absorbed by the produ
 
 
 </div>
+
+
+</div>
+<!-- MEGA DIV ENDS -->
+
+
+
+
 </div>
 
 
@@ -181,10 +208,7 @@ export default {
    data(){
     return{
     open:false,
-    silica : false,
-    calcium : false,
-    clay : false,
-    act:false
+    article : false
 
     }
   },

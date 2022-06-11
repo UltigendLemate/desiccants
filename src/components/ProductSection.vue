@@ -47,7 +47,7 @@
       delay:200,
       duration: 400,
     },
-  }"  class="product"><img src="../assets/products/silica-gel_small.webp"   class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel <br>Sachets</span></div>
+  }"  class="product"><img src="../assets/products/silica-gel_small.webp"   class="w-full bg-[#98C1D9] rounded-lg  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3" >Silica Gel <br>Sachets</span></div>
 
 <div @mouseenter="addClass" @mouseleave="removeClass" v-motion
   :initial="{
@@ -61,7 +61,7 @@
       delay:400,
       duration: 400,
     },
-  }" class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon <br> Pouches</span></div>
+  }" class="product "><img src="../assets/products/act_small.webp"  class="w-full bg-[#98C1D9] rounded-lg" alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg   mt-3">Activated Carbon <br> Pouches</span></div>
 
 <div @mouseenter="addClass" @mouseleave="removeClass" v-motion
   :initial="{
@@ -75,7 +75,7 @@
       delay:300,
       duration: 400,
     },
-  }" class="product"><img src="../assets/products/clay_small.webp"  class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Clay Based <br> Desiccant</span></div>
+  }" class="product"><img src="../assets/products/sustainable.webp"  class="w-full bg-[#98C1D9] rounded-lg  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Sustainable <br> Sorbents</span></div>
 
 
 <div @mouseenter="addClass" @mouseleave="removeClass" v-motion
@@ -90,7 +90,7 @@
       delay:500,
       duration: 400,
     },
-  }" class="product hideme"><img src="../assets/products/indicative_small.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade <br> Desiccant</span></div>
+  }" class="product hideme"><img src="../assets/products/indicative_small.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-lg  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Indicative <br> Adsorbers</span></div>
 
 </div>
 
@@ -152,7 +152,7 @@
       delay:200,
       duration: 1100,
     },
-  }"  class="product hideme"><img src="../assets/products/indicative.webp" srcset="../assets/products/indicative_small.webp 300w,../assets/products/indicative.webp 450w" class="w-full bg-[#98C1D9] rounded-3xl  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Food Grade Desiccant</span></div>
+  }"  class="product hideme"><img src="../assets/products/sustainable.webp"  class="w-full bg-[#98C1D9] rounded-md  " alt=""><span class="text-sm font-semibold md:text-xl sm:text-lg    mt-3">Sustainable Sorbents</span></div>
 
 </div>
 
