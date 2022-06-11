@@ -32,21 +32,21 @@
   </nav>
 
 <div class="grid justify-center">
-<h1 class="  pt-8 mb-5 pb-2 md:mt-8  w-fit  text-5xl  text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">CONTACT US</h1>
+<h1 class="  pt-8   md:mt-8  w-fit  text-5xl mb-5 md:mb-0 text-center px-3 md:px-0 " style="font-family: 'Lora', serif;">CONTACT US</h1>
 </div>
 
-<div class="grid md:grid-cols-2 overflow-hidden md:mt-8 mt-3 text-black  lg:pt-10 md:pb-10 ">
- <div class="hidden flex-col mx-6 md:flex text-xl  justify-center productCard text-left mt-8 py-7  md:mr-3 md:ml-6 ">
+<div class="grid md:grid-cols-2 items-center overflow-hidden md:mt-8 mt-3 text-black  lg:pt-0 md:pb-10 ">
+ <div class="hidden flex-col mx-6 md:flex text-xl  justify-center productCard text-left  py-7  md:mr-3 md:ml-8 xl:ml-20 ">
 <h2 class="text-[40px] md:text-5xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here</h2>
 <h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
 
 
-<div class="grid grid-cols-2 justify-center text-center items-center mx-16">
-<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9212025689" class="  block"><i class="bi bi-telephone-fill"></i> 9212025689</a>
-<a href="tel:9810987954" class=" block  "><i class="bi bi-telephone-fill"></i>  9810987954</a></p>
+<div class="grid lg:grid-cols-2 justify-center text-center text-[18px] items-center mx-16 md:mx-0 xl:mx-0">
+<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9212025689" class="  block whitespace-nowrap "><i class="bi bi-telephone-fill"></i> 9212025689</a>
+<a href="tel:9810987954" class=" block whitespace-nowrap  "><i class="bi bi-telephone-fill"></i>  9810987954</a></p>
 
 
-<p class=" px-10 text-[18px] py-3 -ml-12"><span class="font-bold block pb-3 text-gray-500">Email Us:  </span> <a  href="mailto:mktg@desiccantsindia.com" class="  block whitespace-nowrap"><i class="bi bi-envelope-fill"></i> mktg@desiccantsindia.com</a>
+<p class=" px-10 text-[18px] py-3 lg:-ml-20"><span class="font-bold block pb-3 text-gray-500">Email Us:  </span> <a  href="mailto:mktg@desiccantsindia.com" class="  block whitespace-nowrap"><i class="bi bi-envelope-fill"></i> mktg@desiccantsindia.com</a>
 <a  href="mailto:desiccantsindia@yahoo.co.in" class=" block whitespace-nowrap cursor-pointer "><i class="bi bi-envelope-fill"></i> desiccantsindia@yahoo.co.in</a></p>
 </div>
 </div>
