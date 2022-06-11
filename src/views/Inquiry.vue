@@ -37,7 +37,7 @@
 
 <div class="grid md:grid-cols-2 items-center overflow-hidden md:mt-8 mt-3 text-black  lg:pt-0 md:pb-10 ">
  <div class="hidden flex-col mx-6 md:flex text-xl  justify-center productCard text-left  py-7  md:mr-3 md:ml-8 xl:ml-20 ">
-<h2 class="text-[40px] md:text-5xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here</h2>
+<h2 class="text-[30px] md:text-4xl text-gray-500   text-center " style="font-family: 'Lora', serif;">We're Here!</h2>
 <h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
 
 
