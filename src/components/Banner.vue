@@ -145,7 +145,7 @@
     transition: {
       duration: 400,
       ease: 'easeIn',
-    },}"  class="mx-10 mt-24 md:hidden"><h1 style="word-spacing: 5px; font-family: 'Athelas-Bold' ;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
+    },}"  class="mx-10 mt-24 md:hidden"><h1 style="word-spacing: 5px;" class="text-6xl  text-center desiccants  md:text-7xl  xl:text-[100px]  text-white md:leading-tight lg:leading-none sm:text-6xl t-smal "> DESICCANTS INDIA LLP</h1></div>
 
 
 <!-- <div class="flex justify-center mt-3 lg:mt-0 xl:mt-0"><h4 class="text-center  text-2xl  tracking-wider lg:tracking-widest  font-extrabold text-black  ">Since 1995</h4></div> -->

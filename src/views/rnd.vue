@@ -36,12 +36,12 @@
 </div>
 <div class="grid mx-5 justify-center lg:mx-auto">
 
-<div class="productCard lg:max-w-[1100px] text-justify py-5 lg:text-lg px-3">
+<div class="productCard lg:max-w-[1000px] xl:w-[1100px] xl:max-w-screen-xl text-justify py-5 lg:text-lg px-3">
 <div class="flex flex-col lg:flex-row py-3  items-center justify-center   w-full ">
-<div class="lg:max-w-[540px] w-full lg:ml-4">
-<img src="../assets/graphs/graph1.svg" class="rounded-3xl w-full" alt="">
+<div class="lg:w-1/2 w-full lg:ml-4">
+<img src="../assets/graphs/graph1.svg"  class="rounded-3xl w-full xl:w-[520px]" alt="">
 </div>
-<div class="lg:max-w-[540px]">
+<div class="lg:w-1/2">
 
 <div class="relative   px-3   md:px-6">
 
