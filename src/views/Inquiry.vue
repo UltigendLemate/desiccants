@@ -83,7 +83,7 @@
      <div class="md:w-1/2 md:pr-3">
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>When to use desiccants?</span>
           <ChevronUpIcon
@@ -97,7 +97,7 @@
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>How to think about protection?</span>
           <ChevronUpIcon
@@ -111,7 +111,7 @@
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>How much desiccant to use?</span>
           <ChevronUpIcon
@@ -128,7 +128,7 @@
 
        <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>How to use desiccants?</span>
           <ChevronUpIcon
@@ -148,7 +148,7 @@
       <div class="md:w-1/2 md:pl-3">
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>How to determine which desiccant to use?</span>
           <ChevronUpIcon
@@ -162,7 +162,7 @@
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>Can the desiccant harm my product?</span>
           <ChevronUpIcon
@@ -177,7 +177,7 @@
      
        <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>Do’s</span>
           <ChevronUpIcon
@@ -199,7 +199,7 @@
       </Disclosure>
       <Disclosure as="div" class="my-3 md:my-4" v-slot="{ open }">
         <DisclosureButton
-          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-lg font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+          class="flex w-full justify-between rounded-lg bg-[#d8cae1] px-4 py-2 text-left text-lg font-medium text-[#4c424e] hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
         >
           <span>Dont’s</span>
           <ChevronUpIcon
@@ -248,7 +248,7 @@ export default {
 
 <style>
 .disc{
-@apply bg-green-100 -mt-1;
+@apply bg-gray-100 -mt-1;
 }
 @media (min-width: 700px){
 .map{
