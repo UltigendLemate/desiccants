@@ -161,9 +161,9 @@ Haryana-124507</p>
     </ul>
 </div>
   <div class=" grid-cols-3 grid text-4xl md:text-5xl gap-x-4 mt-6 md:mt-12">
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-twitter"></i>
+    <a href="https://www.facebook.com/ATOZMOISTURESOLUTION/" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://instagram.com/desiccants_india_llp?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/amarpreet-singh-a36b6330" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
 <div class="grid p-4  max-w-[180px] "><img src="./assets/logo.png" alt=""></div>
   <div class=" pb-5 md:text-xl  text-center "> Desiccants India LLP &#169; 2022.<br class="md:hidden"> All rights reserved.</div>

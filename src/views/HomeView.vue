@@ -18,18 +18,6 @@
     },
   }" />
     
-     <!-- <Whyus/> -->
-
- 
-
-  <!-- <our-journey/> -->
-
-
-
-
-
-
-
 
 </template>
 
@@ -43,6 +31,7 @@ import OurJourney from '../components/trash.vue'
 import Journey from '../components/Journey.vue'
 import Whyus from '../components/Whyus.vue'
 import Industries from '../components/AboutUs.vue'
+
 export default {
   components:{
     Banner,
@@ -60,6 +49,9 @@ export default {
   
 }
 </script>
+
+
+
 
 
 
