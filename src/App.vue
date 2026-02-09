@@ -37,7 +37,7 @@
 
   <router-view  class="overflow-x-hidden" />
 
-<div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href="https://wa.me/+919212025689" target="_blank"><img src="./assets/wp.svg" alt=""></a></div>
+<div class="fixed bottom-5 md:bottom-7 right-5 bg-[#2DB742] rounded-full p-3 h-16 w-16 " id="wp"><a href="https://wa.me/+918368848872" target="_blank"><img src="./assets/wp.svg" alt=""></a></div>
 
 <!-- <footer class=""> 
 
@@ -92,7 +92,7 @@ Haryana-124507</p>
 <div class="">
 
 <p class="  "><span class="font-bold ">Call Us: </span> <a href="tel:9810987954" class="  block"><i class="bi bi-telephone-fill"></i> 9810987954</a>
-<a href="tel:9212025689" class=" block  "><i class="bi bi-telephone-fill"></i> 9212025689</a></p>
+<a href="tel:8368848872" class=" block  "><i class="bi bi-telephone-fill"></i> 8368848872</a></p>
  
    <div class="hidden md:block">
 <p class="  font-bold mt-4 ">Email Us:</p><a href="mailto:desiccantsindia@yahoo.co.in" class="  inline-block "> <i class="bi bi-envelope-fill"></i>  mktg@desiccantsindia.com</a>

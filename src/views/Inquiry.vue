@@ -42,7 +42,7 @@
 
 
 <div class="grid lg:grid-cols-2 justify-center text-center text-[18px] items-center mx-16 md:mx-0 xl:mx-0">
-<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9212025689" class="  block whitespace-nowrap "><i class="bi bi-telephone-fill"></i> 9212025689</a>
+<p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:8368848872" class="  block whitespace-nowrap "><i class="bi bi-telephone-fill"></i> 8368848872</a>
 <a href="tel:9810987954" class=" block whitespace-nowrap  "><i class="bi bi-telephone-fill"></i>  9810987954</a></p>
 
 
@@ -60,7 +60,7 @@
 <h3 class="  md:text-center  pt-3 md:pt-7 lg:pt-6 pb-3 px-10">Feel free to reach out to us and obtain free samples.</h3>
 
 <p class=" px-10 "><span class="font-bold block pb-3 text-gray-500">Call Us:  </span> <a href="tel:9810987954" class="  block"><i class="bi bi-telephone-fill"></i> 9810987954</a>
-<a href="tel:9212025689" class=" block  "><i class="bi bi-telephone-fill"></i> 9212025689</a></p>
+<a href="tel:8368848872" class=" block  "><i class="bi bi-telephone-fill"></i> 8368848872</a></p>
 
 
 
