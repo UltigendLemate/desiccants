@@ -271,6 +271,9 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@596&display=swap');
+
 @font-face {font-family: "Athelas-Bold";
     src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot"); /* IE9*/
     src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -279,8 +282,6 @@
     url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.svg#Athelas-Bold") format("svg"); /* iOS 4.1- */
 }
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@596&display=swap');
 
 @font-face {font-family: "Copyright Klim Type Foundry";
     src: url("https://db.onlinewebfonts.com/t/2bd08e50de2f6bf200a884f65030af75.eot"); /* IE9*/

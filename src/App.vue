@@ -172,6 +172,9 @@ Haryana-124507</p>
 </template>
 
 <style >
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 @font-face {font-family: "Athelas-Bold";
     src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot"); /* IE9*/
     src: url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -180,10 +183,6 @@ Haryana-124507</p>
     url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("https://db.onlinewebfonts.com/t/db8cfc8f593f2e47bd9bd157e455c494.svg#Athelas-Bold") format("svg"); /* iOS 4.1- */
 }
-
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 html {
   scroll-behavior: smooth !important;

@@ -2,31 +2,27 @@
   "name": "desiccants-india",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vite",
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.6.4",
+    "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^1.0.6",
-    "@vueuse/motion": "^2.0.0-beta.12",
-    "autoprefixer": "^10",
-    "core-js": "^3.8.3",
-    "flickity": "^3.0.0",
-    "flickity-fade": "^2.0.0",
-    "postcss": "^8",
-    "swiper": "^8.2.2",
-    "tailwindcss": "^3",
-    "vue": "^3.2.13",
-    "vue-flip": "^2.2.0",
-    "vue-router": "^4.0.3"
+    "@vueuse/motion": "^2.2.6",
+    "swiper": "^8.4.7",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "node-sass": "^7.0.1",
-    "sass-loader": "^12.6.0",
-    "vue-cli-plugin-tailwind": "~3.0.0"
+    "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "sass": "^1.87.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^6.3.5"
   }
 }

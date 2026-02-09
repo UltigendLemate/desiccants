@@ -13,30 +13,22 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Products.vue')
-  }
-  ,
+    component: () => import('../views/Products.vue')
+  },
   {
     path: '/RnD',
     name: 'RnD',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/rnd.vue')
-  }
-  ,
+    component: () => import('../views/rnd.vue')
+  },
   {
     path: '/inquiry',
     name: 'inquiry',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Inquiry.vue')
+    component: () => import('../views/Inquiry.vue')
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   
 })

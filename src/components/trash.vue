@@ -81,6 +81,8 @@ export default {
 </script>
 
 <style lang="scss">
+@use "sass:math";
+@use "sass:list";
 /* Media Queries */
 
 @mixin mq-xs {
@@ -111,7 +113,7 @@ export default {
   $box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
   $border: 1px solid rgba(191, 191, 191, 0.4);
   $items: 5;
-  $rows: ceil($items/2);
+  $rows: math.ceil(math.div($items, 2));
   
   /* Card sizing */
   
@@ -138,7 +140,7 @@ export default {
   $container-width: $card-width*2 + $outer-margin*3;
   $head-height: $number-size + 50;
   $body-height: $card-height - $head-height;
-  $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
+  $marker-dist: $card-width + math.div($outer-margin, 2) - math.div($marker-size, 2);
   
   /* Placeholders */
   
@@ -241,10 +243,10 @@ export default {
         max-width: $card-width;
         height: $card-height;
         margin: $outer-margin;
-        margin-top: $outer-margin/2;
-        margin-bottom: $outer-margin/2;
+        margin-top: math.div($outer-margin, 2);
+        margin-bottom: math.div($outer-margin, 2);
         &:nth-child(odd) {
-          margin-right: $outer-margin/2;
+          margin-right: math.div($outer-margin, 2);
           .head::after {
             @extend %arrow;
             border-left-width: 15px;
@@ -257,7 +259,7 @@ export default {
           }
         }
         &:nth-child(even) {
-          margin-left: $outer-margin/2;
+          margin-left: math.div($outer-margin, 2);
           .head::after {
             @extend %arrow;
             border-right-width: 15px;
@@ -331,7 +333,7 @@ export default {
       }
       @for $i from 1 through $items {
         &--step#{$i} {
-          $color: nth($colors, ((($i - 1) % 4) + 1));
+          $color: list.nth($colors, ((($i - 1) % 4) + 1));
           background-color: $color;
           .head::after {
             border-color: $color;
